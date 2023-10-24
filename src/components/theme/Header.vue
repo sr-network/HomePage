@@ -2,18 +2,18 @@
     <v-navigation-drawer v-model="drawer" temporary>
 
         <v-list density="compact" nav>
-            <v-list-subheader>My sites</v-list-subheader>
-            <v-list-item prepend-icon="mdi-home" title="Home" value="Index"></v-list-item>
+            <v-list-subheader>Pages</v-list-subheader>
+            <v-list-item prepend-icon="mdi-home" title="Index" value="Index" href="#"></v-list-item>
             <v-list-item prepend-icon="mdi-book" title="Blog" value="Blog" href="https://blog.restent.win"></v-list-item>
             <v-list-item prepend-icon="mdi-library" title="Library" value="Library"
                 href="https://library.restent.win"></v-list-item>
         </v-list>
+
         <v-list density="compact" nav>
             <v-list-subheader>Quick Access</v-list-subheader>
-            <v-list-item prepend-icon="mdi-account-group" title="Friends" value="Friends"
-                href="https://library.restent.win/links.html"></v-list-item>
-            <v-list-item prepend-icon="mdi-cellphone-sound" title="Contact" value="Contact"
-                href="https://library.restent.win/contact.html"></v-list-item>
+            <v-list-item prepend-icon="mdi-contacts" title="Social" value="Social" href="https://library.restent.win/social"></v-list-item>
+            <v-list-item prepend-icon="mdi-account-multiple" title="Friends" value="Friends"
+                href="https://library.restent.win/links"></v-list-item>
         </v-list>
     </v-navigation-drawer>
 
@@ -45,10 +45,3 @@ export default {
     },
 }
 </script>
-
-<style>
-.lazy-image {
-    width: 100%;
-    position: absolute;
-}
-</style>

@@ -1,6 +1,7 @@
 import { createVuetify } from "vuetify";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
+import "@/assets/scss/style.scss";
 
 export default defineNuxtPlugin((nuxtApp) => {
   const vuetify = createVuetify({
@@ -15,6 +16,8 @@ export default defineNuxtPlugin((nuxtApp) => {
             surface: "#FFFFFF",
             primary: "#1e90ff",
             secondary: "#87CEFA",
+            blockquote: "#EEEEEE",
+            blockquoteBorder: "#E0E0E0"
           },
         },
         dark: {
@@ -23,6 +26,8 @@ export default defineNuxtPlugin((nuxtApp) => {
             surface: "#212121",
             primary: "#1e90ff",
             secondary: "#87CEFA",
+            blockquote: "#616161",
+            blockquoteBorder: "#424242"
           },
         },
       },
