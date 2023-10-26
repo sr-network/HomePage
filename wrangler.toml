@@ -1,8 +1,5 @@
 name = "homepage"
-main = "./.output/public/index.html"
-workers_dev = true
-compatibility_date = "2023-10-20"
-account_id = ""
-route = ""
+main = "src/index.ts"
+compatibility_date = "2023-10-25"
 [site]
-bucket = ".output/public"
+bucket = "./.output/public"
