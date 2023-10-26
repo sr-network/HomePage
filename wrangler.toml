@@ -1,0 +1,8 @@
+name = "homepage"
+main = "./.output/public"
+workers_dev = true
+compatibility_date = "2023-10-20"
+account_id = ""
+route = ""
+[site]
+bucket = ".output/public"

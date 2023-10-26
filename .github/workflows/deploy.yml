@@ -35,14 +35,10 @@ jobs:
         run: pnpm install
       - name: Build
         run: pnpm generate
-      - name: Publish to Vercel
-        uses: amondnet/vercel-action@v20
+      - name: Publish to Cloudflare Workers Site
+        uses: cloudflare/wrangler-action@2.0.0
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-args: "--prod" #Optional
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID_STATIC }}
+          apiToken: ${{ secrets.CF_API_TOKEN }}
       - name: Send notification to Telegram Group
         uses: appleboy/telegram-action@master
         with:
