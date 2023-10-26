@@ -34,7 +34,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: pnpm install
       - name: Build
-        run: pnpm build
+        run: pnpm generate
       - name: Publish to Vercel
         uses: amondnet/vercel-action@v20
         with:
