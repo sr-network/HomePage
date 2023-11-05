@@ -1,9 +1,8 @@
 <template>
   <v-app>
     <themeHeader />
-    <v-main>
-      <themeBody />
-    </v-main>
+    <div style="height:64px" />
+    <themeBody />
     <themeFooter />
   </v-app>
 </template>
@@ -30,7 +29,7 @@ useSeoMeta({
   ogTitle: 'Ou\'s Intro',
   description: 'Ou\'s Intro - Introduction of Restent Ou & SliverRiver',
   ogDescription: 'Ou\'s Intro - Introduction of Restent Ou & SliverRiver',
-  ogImage: 'https://library.restent.win/images/profile.webp',
+  ogImage: 'https://library.restent.win/images/icons/favicon.webp',
 })
 
 import { useTheme } from 'vuetify'

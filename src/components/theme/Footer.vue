@@ -9,7 +9,7 @@
             </v-col>
             <v-col>
                 <p class="pt-md-2 pb-2 ma-md-2 text-md-right text-center text-body-2">
-                    Powered by <a href="https://vitepress.dev" class="text-decoration-none"
+                    Powered by <a href="https://nuxt.com" class="text-decoration-none"
                         style="color: #1e90ff">Nuxt.js</a> · UI by SliverRiver<br>
                 </p>
             </v-col>

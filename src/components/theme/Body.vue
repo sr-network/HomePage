@@ -5,7 +5,7 @@
             <v-container>
                 <v-row>
                     <v-col sm="6" xs="12">
-                        <v-card color="#0091EA" theme="white">
+                        <v-card color="rgba(var(--v-theme-profileCard))">
                             <div class="d-flex flex-no-wrap">
                                 <v-avatar rounded="0" image="https://library.restent.win/images/icons/avatar.webp"
                                     size="70"></v-avatar>
@@ -19,7 +19,7 @@
                         </v-card>
                     </v-col>
                     <v-col sm="6" xs="12">
-                        <v-card color="#0091EA" theme="white">
+                        <v-card color="rgba(var(--v-theme-profileCard))">
                             <div class="d-flex flex-no-wrap">
                                 <v-avatar rounded="0" image="https://library.restent.win/images/icons/SliverRiver.webp"
                                     size="70"></v-avatar>
@@ -37,25 +37,15 @@
 
             <v-card-text>
                 <v-container>
-                    <div class="text-h6 mb-2">档案 / Profile</div>
-                    <p class="text-body-2 mb-2">17 岁在读学生，来自广西壮族自治区。</p>
-                    <p class="text-body-2 mb-2">8 岁开始接触信息技术和电子产品，并在过去的几年中学到了一些比较有用的知识和技巧。</p>
-                    <p class="text-body-2 mb-2">目前效力于 <a href="https://github.com/S-Complex"
-                            class="text-decoration-none">Sliver
-                            Complex</a>, <a href="https://github.com/LittleSkinCommspt"
-                            class="text-decoration-none">LittleSkin
-                            Community</a> 和 <a href="https://go.14cloud.cn" class="text-decoration-none">14Cloud</a>。</p>
-                    <p class="text-body-2 mb-2">平日喜欢写 Vue，迫于 IQ 太低所以没转战 React；闲暇时间会听一些音乐、看一些有趣的视频，当然少不了打一会音游。</p>
+                    <p>中国学生、轻量项目维护者。</p>
+                    <p>8 岁时偶然接触到 IT 和电子产品方面的事物，在此之后通过自学和团队合作的方式不断学习相关知识。</p>
+                    <p>效力于 <a href="https://github.com/s-complex">Sliver Complex</a>, <a href="https://github.com/LittleSkinCommspt">LittleSkin Community</a> 和 <a href="https://go.14cloud.cn">忆加速</a>，你或许在这些地方能够看见我。</p>
+                    <p>其中一个个人喜好是在空闲时间听音乐、看有趣的视频，亦或是游玩 Minecraft 或音乐游戏。</p>
                     <br>
-                    <p class="text-body-2 mb-2">17-year-old student, lives in Guangxi, China.</p>
-                    <p class="text-body-2 mb-2">Started accessing IT and electronics at the age of 8, and learnt
-                        many useful knowledges and skills between these years.</p>
-                    <p class="text-body-2 mb-2">Now is a member of <a href="https://github.com/LittleSkinCommspt"
-                            class="text-decoration-none">LittleSkin
-                            Community</a> and <a href="https://go.14cloud.cn" class="text-decoration-none">14Cloud</a>,
-                        owned a orginzation named <a href="https://github.com/S-Complex" class="text-decoration-none">Sliver
-                            Complex</a>.</p>
-                    <p class="text-body-2 mb-2">I like to coding with Vue in most of my time, and I give up coding with React cause of my low IQ; in my spare time, I listen to some music, watch some interesting videos, and of course, play some rhythm games.</p>
+                    <p>Chinese student and lightweight project maintainer.</p>
+                    <p>Accessed IT and electronics casually at the age of 8, and then began to learn related knowledge through self-study and team collaboration.</p>
+                    <p>Working for <a href="https://github.com/s-complex">Sliver Complex</a>, <a href="https://github.com/LittleSkinCommspt">LittleSkin Community</a> and <a href="https://go.14cloud.cn">14Cloud</a>, and maybe you can see me at these places.</p>
+                    <p>One of my personal favorites is listening to music, watching interesting videos, or playing Minecraft or music games.</p>
                 </v-container>
             </v-card-text>
         </v-card>
