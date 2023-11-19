@@ -1,5 +1,6 @@
 {
-  "name": "nuxt-app",
+  "name": "ou-intro",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "scripts": {
