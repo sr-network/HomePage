@@ -1,4 +1,5 @@
-name: Deploy
+name: Deploy site
+
 on:
   push:
     branches:
@@ -11,11 +12,12 @@ jobs:
         os: [ubuntu-latest]
         node: [18]
     steps:
-      - uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node }}
       - name: Checkout
         uses: actions/checkout@master
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
@@ -30,21 +32,22 @@ jobs:
         with:
           path: node_modules
           key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/pnpm.lock')) }}
-      - name: Install Dependencies
+      - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: pnpm install
-      - name: Build
+      - name: Build site
         run: pnpm generate
-      - name: Publish to Cloudflare Workers Site
+      - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@2.0.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
-      - name: Send notification to Telegram Group
+      - name: Send notification to Telegram Channel
         uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            Ou's Intro 的一个新更改已应用。
-            Commited by ${{ github.actor }} with message: ${{ github.event.commits[0].message }}
-            您现在可以访问 https://www.restent.win 以查看最新更改是否生效。
+            一个新更改已经应用到 Ou's Intro。
+            提交人：${{ github.actor }}
+            提交信息：${{ github.event.commits[0].message }}
+            您现在可以访问 https://www.restent.win 以查看最新更改是否生效，若未生效请尝试刷新缓存。

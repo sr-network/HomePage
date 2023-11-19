@@ -5,9 +5,18 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource/jetbrains-mono':
+    specifier: ^5.0.17
+    version: 5.0.17
+  '@fontsource/roboto':
+    specifier: ^5.0.8
+    version: 5.0.8
   '@mdi/font':
     specifier: ^7.3.67
     version: 7.3.67
+  material-icons:
+    specifier: ^1.13.12
+    version: 1.13.12
 
 devDependencies:
   '@cloudflare/kv-asset-handler':
@@ -1070,6 +1079,14 @@ packages:
     resolution: {integrity: sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==}
     engines: {node: '>=14'}
     dev: true
+
+  /@fontsource/jetbrains-mono@5.0.17:
+    resolution: {integrity: sha512-Y/EtdbwKwNQTGpnMrexX8SVW6Jqlh0nX2bNHI9Z9m6FsyjbocZIFNJqwSY9bDUoi7irGtz8nuidAN7FF8wYuJA==}
+    dev: false
+
+  /@fontsource/roboto@5.0.8:
+    resolution: {integrity: sha512-XxPltXs5R31D6UZeLIV1td3wTXU3jzd3f2DLsXI8tytMGBkIsGcc9sIyiupRtA8y73HAhuSCeweOoBqf6DbWCA==}
+    dev: false
 
   /@ioredis/commands@1.2.0:
     resolution: {integrity: sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg==}
@@ -4173,6 +4190,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /material-icons@1.13.12:
+    resolution: {integrity: sha512-/2YoaB79IjUK2B2JB+vIXXYGtBfHb/XG66LvoKVM5ykHW7yfrV5SP6d7KLX6iijY6/G9GqwgtPQ/sbhFnOURVA==}
+    dev: false
 
   /mdn-data@2.0.28:
     resolution: {integrity: sha512-aylIc7Z9y4yzHYAJNuESG3hfhC+0Ibp/MAMiaOZgNv4pmEdFyfZhhhny4MNiAfWdBQ1RQ2mfDWmM1x8SvGyp8g==}

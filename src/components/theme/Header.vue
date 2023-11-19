@@ -2,17 +2,17 @@
     <v-navigation-drawer v-model="drawer" temporary>
         <v-list density="compact" nav>
             <v-list-subheader>Pages</v-list-subheader>
-            <v-list-item prepend-icon="mdi-home" title="Index" value="Index" href="#"></v-list-item>
-            <v-list-item prepend-icon="mdi-book" title="Blog" value="Blog" href="https://blog.restent.win"></v-list-item>
-            <v-list-item prepend-icon="mdi-library" title="Library" value="Library"
+            <v-list-item prepend-icon="home" title="Index" value="Index" href="#"></v-list-item>
+            <v-list-item prepend-icon="book" title="Blog" value="Blog" href="https://blog.restent.win"></v-list-item>
+            <v-list-item prepend-icon="library_books" title="Library" value="Library"
                 href="https://library.restent.win"></v-list-item>
         </v-list>
 
         <v-list density="compact" nav>
             <v-list-subheader>Quick Access</v-list-subheader>
-            <v-list-item prepend-icon="mdi-contacts" title="Social" value="Social"
+            <v-list-item prepend-icon="contacts" title="Social" value="Social"
                 href="https://library.restent.win/social"></v-list-item>
-            <v-list-item prepend-icon="mdi-account-multiple" title="Friends" value="Friends"
+            <v-list-item prepend-icon="group" title="Friends" value="Friends"
                 href="https://library.restent.win/links"></v-list-item>
         </v-list>
     </v-navigation-drawer>
@@ -22,7 +22,7 @@
             <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         </template>
         <v-app-bar-title class="text-h6">Ou's Intro</v-app-bar-title>
-        <v-btn icon="mdi-theme-light-dark" @click="toggleTheme"></v-btn>
+        <v-btn icon @click="toggleTheme"><v-icon icon="contrast" /></v-btn>
     </v-app-bar>
 </template>
 

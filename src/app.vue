@@ -1,8 +1,9 @@
 <template>
   <v-app>
     <themeHeader />
-    <div style="height:64px" />
-    <themeBody />
+    <v-main>
+      <themeBody />
+    </v-main>
     <themeFooter />
   </v-app>
 </template>

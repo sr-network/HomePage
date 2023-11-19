@@ -1,34 +1,39 @@
+import 'vuetify/styles'
 import { createVuetify } from "vuetify";
-import * as components from "vuetify/components";
-import * as directives from "vuetify/directives";
 import "@/assets/scss/style.scss";
+import { aliases, md } from 'vuetify/iconsets/md';
 
 export default defineNuxtPlugin((nuxtApp) => {
   const vuetify = createVuetify({
     ssr: true,
-    components,
-    directives,
+    icons: {
+      defaultSet: 'md',
+      aliases,
+      sets: {
+        md,
+      }
+    },
     theme: {
       themes: {
         light: {
           colors: {
-            background: "#FAFAFA",
+            background: "#ECEFF1",
             surface: "#FFFFFF",
             primary: "#2196F3",
             secondary: "#03A9F4",
-            blockquote: "#EEEEEE",
-            blockquoteBorder: "#E0E0E0",
+            blockquote: "#ECEFF1",
+            blockquoteBorder: "#039BE5",
             profileCard: "#E3F2FD",
           },
         },
         dark: {
           colors: {
-            background: "#000000",
-            surface: "#212121",
+            background: "#212121",
+            surface: "#263238",
             primary: "#2196F3",
             secondary: "#03A9F4",
-            blockquote: "#616161",
-            blockquoteBorder: "#424242",
+            blockquote: "#455A64",
+            blockquoteBorder: "#0277BD",
             profileCard: "#546E7A",
           },
         },
