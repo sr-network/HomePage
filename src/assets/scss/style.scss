@@ -1,6 +1,5 @@
 @use "material-icons/iconfont/material-icons.css";
 @use "@fontsource/roboto";
-@use "@fontsource/jetbrains-mono";
 
 h1,
 h2,
@@ -16,21 +15,4 @@ h6 {
 a {
   text-decoration: none;
   color: rgba(var(--v-theme-primary));
-}
-
-p {
-  line-height: 1.5rem;
-  margin-bottom: 0.7rem;
-}
-
-hr {
-  margin: 20px 0px;
-}
-
-ul, li {
-  margin: 0.8rem 1.3rem;
-}
-
-code {
-  font-family: "Jetbrains Mono";
 }
