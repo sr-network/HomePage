@@ -2,31 +2,34 @@
   "name": "ou-intro",
   "license": "MIT",
   "private": true,
-  "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@cloudflare/kv-asset-handler": "latest",
-    "@cloudflare/workers-types": "^4.20230419.0",
-    "@nuxt/devtools": "latest",
-    "nuxt": "^3.8.0",
-    "sass": "^1.69.4",
-    "typescript": "^5.0.4",
-    "vite-plugin-vuetify": "^1.0.2",
-    "vue": "^3.3.6",
-    "vue-router": "^4.2.5",
-    "vuetify": "^3.3.22",
-    "wrangler": "^3.0.0"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@fontsource/jetbrains-mono": "^5.0.17",
-    "@fontsource/roboto": "^5.0.8",
-    "@mdi/font": "^7.3.67",
-    "material-icons": "^1.13.12"
+    "@cloudflare/kv-asset-handler": "latest",
+    "@cloudflare/workers-types": "^4.20231121.0",
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "autoprefixer": "^10.4.16",
+    "next": "latest",
+    "postcss": "^8.4.32",
+    "react": "latest",
+    "react-dom": "latest",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "tailwindcss": "^3.3.5",
+    "typescript": "latest"
   }
 }
