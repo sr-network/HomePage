@@ -22,6 +22,11 @@ useHead({
       rel: "apple-touch-icon",
       href: "https://library.restent.win/images/icons/favicon.webp",
     },
+    {
+      rel: "preload",
+      href: "https://library.restent.win/images/introBanner.webp",
+      as: "image"
+    }
   ]
 })
 useSeoMeta({
