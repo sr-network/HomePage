@@ -10,6 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@cloudflare/kv-asset-handler": "latest",
+    "@cloudflare/workers-types": "^4.20231121.0",
     "@mdi/js": "^7.3.67",
     "@nuxt/devtools": "latest",
     "nuxt": "^3.8.2",
