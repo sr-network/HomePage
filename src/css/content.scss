@@ -1,0 +1,19 @@
+@use "@fontsource/jetbrains-mono";
+
+p {
+  line-height: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+
+hr {
+  margin: 20px 0px;
+}
+
+ul,
+li {
+  margin: 0.8rem 1.3rem;
+}
+
+code {
+  font-family: "Jetbrains Mono";
+}

@@ -10,9 +10,17 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@mdi/js": "^7.3.67",
     "@nuxt/devtools": "latest",
     "nuxt": "^3.8.2",
+    "vite-plugin-vuetify": "^1.0.2",
     "vue": "^3.3.10",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.4.6"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.0.18",
+    "@fontsource/roboto": "^5.0.8",
+    "sass": "^1.69.5"
   }
 }
