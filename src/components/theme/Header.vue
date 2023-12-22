@@ -3,17 +3,17 @@
         <v-list density="compact" nav>
             <v-list-subheader>Pages</v-list-subheader>
             <v-list-item :prepend-icon="mdiHome" title="Index" value="Index" href="#"></v-list-item>
-            <v-list-item :prepend-icon="mdiBook" title="Blog" value="Blog" href="https://blog.restent.win"></v-list-item>
+            <v-list-item :prepend-icon="mdiBook" title="Blog" value="Blog" href="https://blog.gxres.net"></v-list-item>
             <v-list-item :prepend-icon="mdiLibrary" title="Library" value="Library"
-                href="https://library.restent.win"></v-list-item>
+                href="https://library.gxres.net"></v-list-item>
         </v-list>
 
         <v-list density="compact" nav>
             <v-list-subheader>Quick Access</v-list-subheader>
             <v-list-item :prepend-icon="mdiContacts" title="Social" value="Social"
-                href="https://library.restent.win/social"></v-list-item>
+                href="https://library.gxres.net/social"></v-list-item>
             <v-list-item :prepend-icon="mdiLink" title="Friends" value="Friends"
-                href="https://library.restent.win/links"></v-list-item>
+                href="https://library.gxres.net/links"></v-list-item>
         </v-list>
     </v-navigation-drawer>
 

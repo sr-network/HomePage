@@ -2,8 +2,8 @@
     <v-container style="max-width:770px;">
         <v-card class="mx-auto my-4 w-full">
 
-            <v-img lazy-src="https://library.restent.win/images/introBanner.webp"
-                src="https://library.restent.win/images/introBanner.webp" height="410px" cover
+            <v-img lazy-src="https://library.gxres.net/images/introBanner.webp"
+                src="https://library.gxres.net/images/introBanner.webp" height="410px" cover
                 alt="Introduction Banner"></v-img>
 
             <v-card-text>
