@@ -1,10 +1,26 @@
-name: Deploy site
+name: Site workflow
 
 on:
   push:
     branches:
       - master
 jobs:
+  sendMessage:
+    name: Send commit message
+    runs-on: ubuntu-latest
+    steps:
+      - uses: colutius/Telegram-Msg@main
+        with:
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          chatid: ${{ secrets.TELEGRAM_TO }}
+          message: |
+            ${{ github.repository }} 有新的内容提交。
+
+            提交人: [${{ github.actor }}]
+
+            提交信息: ${{ github.event.commits[0].message }}
+          is_notify: true
+          is_preview: true
   CI:
     runs-on: ${{ matrix.os }}
     strategy:
@@ -41,12 +57,14 @@ jobs:
         uses: cloudflare/wrangler-action@2.0.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
-      - name: Send notification to Telegram Channel
-        uses: appleboy/telegram-action@master
+      - name: Send build success message
+        uses: colutius/Telegram-Msg@main
         with:
-          to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
+          chatid: ${{ secrets.TELEGRAM_TO }}
           message: |
-            ${{ github.actor }} 已提交新更新至 s-complex/homepage
-            本 Actions 附属的提交信息：${{ github.event.commits[0].message }}
-            您现在可以访问 https://www.restent.win 以查看最新更改是否生效，若未生效请尝试刷新缓存。
+            基于 Commit ${{ github.event.commits[0].message }} 的 Ou's Intro 新更改已构建并部署完成。
+
+            现在可访问 https://www.gxres.net 以查看最新更改。
+          is_notify: true
+          is_preview: true
