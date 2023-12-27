@@ -19,6 +19,9 @@ jobs:
             提交人: [${{ github.actor }}]
 
             提交信息: ${{ github.event.commits[0].message }}
+          button: true
+          button_name: 查看 Commit 详情
+          button_url: https://github.com/${{ github.repository }}/commit/${{github.sha}}
           is_notify: true
           is_preview: true
   CI:
@@ -66,5 +69,8 @@ jobs:
             基于 Commit ${{ github.event.commits[0].message }} 的 Ou's Intro 新更改已构建并部署完成。
 
             现在可访问 https://www.gxres.net 以查看最新更改。
+          button: true
+          button_name: 现在访问
+          button_url: https://www.gxres.net
           is_notify: true
           is_preview: true
