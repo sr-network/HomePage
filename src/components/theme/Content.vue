@@ -146,27 +146,3 @@ export default {
     }),
 }
 </script>
-
-<style type="scss">
-@import "@fontsource/jetbrains-mono/400.css";
-
-p {
-    line-height: 1.5rem;
-    margin-bottom: 0.7rem;
-}
-
-hr {
-    margin: 20px 0px;
-}
-
-ul,
-li {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 0.7rem;
-}
-
-code {
-    font-family: "Jetbrains Mono";
-}
-</style>

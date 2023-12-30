@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fontsource/jetbrains-mono": "^5.0.18",
     "@fontsource/roboto": "^5.0.8",
     "vue": "^3.3.13"
   },
