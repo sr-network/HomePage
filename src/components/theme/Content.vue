@@ -20,7 +20,7 @@
             </v-tabs>
 
             <v-card-text>
-                <v-window v-model="tab">
+                <v-window v-model="tab" style="min-height: 500px;">
                     <v-window-item :key="1" :value="1">
                         <v-row>
                             <v-col cols="12" sm="5">
