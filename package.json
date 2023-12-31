@@ -13,8 +13,6 @@
     "vue": "^3.3.13"
   },
   "devDependencies": {
-    "@cloudflare/kv-asset-handler": "latest",
-    "@cloudflare/workers-types": "^4.20231218.0",
     "@mdi/js": "^7.3.67",
     "@vitejs/plugin-vue": "^4.5.2",
     "sass": "^1.69.5",
