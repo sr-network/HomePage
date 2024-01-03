@@ -1,23 +1,13 @@
 import "vuetify/styles";
 import { createVuetify } from "vuetify";
-import { aliases, mdi } from "vuetify/iconsets/mdi-svg";
+import { aliases, md } from "vuetify/iconsets/md";
 
 const vuetify = createVuetify({
   icons: {
-    defaultSet: "mdi",
+    defaultSet: "md",
     aliases,
     sets: {
-      mdi,
-    },
-  },
-  display: {
-    mobileBreakpoint: 'sm',
-    thresholds: {
-      xs: 0,
-      sm: 340,
-      md: 540,
-      lg: 800,
-      xl: 1280,
+      md,
     },
   },
   theme: {
