@@ -71,11 +71,11 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           chatid: ${{ secrets.TELEGRAM_TO }}
           message: |
-            Restent's Notebook 的新更改已构建并部署完成。
+            Ou's Intro 的新更改已构建并部署完成。
 
             关联的提交信息：${{ github.event.commits[0].message }}
 
-            现在可访问 https://blog.gxres.net 以查看最新更改。
+            现在可访问 https://www.gxres.net 以查看最新更改。
           button: true
           button_name: 现在访问
           button_url: https://www.gxres.net
