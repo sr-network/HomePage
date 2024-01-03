@@ -3,7 +3,7 @@
         <v-row no-gutters>
             <v-col class="text-md-left text-center" cols="12" md="6">
                 <p class="pt-2 pb-md-2 ma-md-2 text-body-2">
-                    Copyright © 2019 - {{ new Date().getFullYear() }} Restent Ou & SliverRiver.
+                    Copyright © Restent Ou & SliverRiver 2019 - {{ new Date().getFullYear() }}.
                 </p>
             </v-col>
             <v-col>
