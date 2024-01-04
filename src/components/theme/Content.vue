@@ -19,7 +19,7 @@
                 <v-tab :value="2">中文</v-tab>
             </v-tabs>
 
-            <v-card-text>
+            <v-card-text style="content">
                 <v-window v-model="tab" style="min-height: 500px;">
                     <v-window-item :key="1" :value="1">
                         <v-row>
@@ -27,9 +27,9 @@
                                 <h5 class="text-h5">self-introduction</h5>
                             </v-col>
                             <v-col cols="12" sm="8">
-                                <p class="text-body-1">I am a senior high student who comes from Guangxi, China aged 17.</p>
-                                <p class="text-body-1">My English name is Restent Ou, sometimes aka SliverRiver.</p>
-                                <p class="text-body-1">BTW I am a truly rubbish on the Internet.</p>
+                                <p class="text-body-1" style="margin-bottom:0.7rem;">I am a senior high student who comes from Guangxi, China aged 17.</p>
+                                <p class="text-body-1" style="margin-bottom:0.7rem;">My English name is Restent Ou, sometimes aka SliverRiver.</p>
+                                <p class="text-body-1" style="margin-bottom:0.7rem;">BTW I am a truly rubbish on the Internet.</p>
                             </v-col>
                         </v-row>
                         <v-row>
@@ -91,9 +91,9 @@
                                 <h5 class="text-h5">自我介绍</h5>
                             </v-col>
                             <v-col cols="12" sm="8">
-                                <p class="text-body-1">我是一名 17 岁的高中学生，来自广西壮族自治区。</p>
-                                <p class="text-body-1">我的英文名是 Restent Ou，有时会以 SliverRiver 这个名字活动。</p>
-                                <p class="text-body-1">你说得对，但是我是一个互联网废物。</p>
+                                <p class="text-body-1" style="margin-bottom:0.7rem;">我是一名 17 岁的高中学生，来自广西壮族自治区。</p>
+                                <p class="text-body-1" style="margin-bottom:0.7rem;">我的英文名是 Restent Ou，有时会以 SliverRiver 这个名字活动。</p>
+                                <p class="text-body-1" style="margin-bottom:0.7rem;">你说得对，但是我是一个互联网废物。</p>
                             </v-col>
                         </v-row>
                         <v-row>
