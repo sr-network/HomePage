@@ -24,8 +24,8 @@ const vuetify = createVuetify({
       },
       dark: {
         colors: {
-          background: "#212121",
-          surface: "#263238",
+          background: "#263238",
+          surface: "#37474F",
           primary: "#2196F3",
           secondary: "#03A9F4",
           blockquote: "#455A64",
