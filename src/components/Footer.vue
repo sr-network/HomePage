@@ -6,4 +6,5 @@
 </template>
 
 <script setup lang="ts">
+import 'mdui/components/navigation-bar.js';
 </script>
