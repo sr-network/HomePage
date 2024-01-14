@@ -1,7 +1,6 @@
 {
   "name": "ou-intro",
   "private": true,
-  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,17 +9,19 @@
   },
   "dependencies": {
     "@fontsource/roboto": "^5.0.8",
+    "@mdui/icons": "^1.0.2",
     "material-icons": "^1.13.12",
-    "vue": "^3.4.5"
+    "mdui": "^2.0.3",
+    "vue": "^3.4.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.2",
-    "sass": "^1.69.7",
-    "typescript": "^5.3.3",
-    "vite": "^5.0.11",
-    "vite-plugin-vuetify": "^2.0.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
     "vite-ssg": "^0.23.6",
-    "vue-tsc": "^1.8.27",
-    "vuetify": "^3.4.9"
+    "vue-tsc": "^1.8.25"
   }
 }

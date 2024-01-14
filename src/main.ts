@@ -1,8 +1,6 @@
-import { ViteSSG } from "vite-ssg/single-page";
-import "./style.scss";
-import App from "./app.vue";
-import vuetify from "./vuetify";
+import { ViteSSG } from 'vite-ssg/single-page'
+import './style.css'
+import App from './App.vue'
+import 'mdui'
 
-export const createApp = ViteSSG(App, ({ app }) => {
-  app.use(vuetify);
-});
+export const createApp = ViteSSG(App)
