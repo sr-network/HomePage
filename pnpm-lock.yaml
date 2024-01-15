@@ -11,9 +11,6 @@ dependencies:
   '@mdui/icons':
     specifier: ^1.0.2
     version: 1.0.2
-  material-icons:
-    specifier: ^1.13.12
-    version: 1.13.12
   mdui:
     specifier: ^2.0.3
     version: 2.0.3
@@ -1063,10 +1060,6 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
-
-  /material-icons@1.13.12:
-    resolution: {integrity: sha512-/2YoaB79IjUK2B2JB+vIXXYGtBfHb/XG66LvoKVM5ykHW7yfrV5SP6d7KLX6iijY6/G9GqwgtPQ/sbhFnOURVA==}
-    dev: false
 
   /mdui@2.0.3:
     resolution: {integrity: sha512-fQVPovZ/vHOePRz0XgMl6g3yMXJSnvvl5fzWdnFlbWpuFbFAEDk7zluQZO+2Ul4k8u/+6CaV6IxkyBojHtWGyQ==}

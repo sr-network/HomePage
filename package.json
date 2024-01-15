@@ -10,7 +10,6 @@
   "dependencies": {
     "@fontsource/roboto": "^5.0.8",
     "@mdui/icons": "^1.0.2",
-    "material-icons": "^1.13.12",
     "mdui": "^2.0.3",
     "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^3.2.1",
