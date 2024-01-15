@@ -22,10 +22,18 @@
             <mdui-dropdown>
                 <mdui-button-icon slot="trigger" icon="contrast"></mdui-button-icon>
                 <mdui-menu>
-                    <mdui-menu-item ref="lightMode" value="light">Light Mode</mdui-menu-item>
-                    <mdui-menu-item ref="darkMode" value="dark">Dark Mode</mdui-menu-item>
-                    <mdui-menu-item ref="autoMode" value="auto">Follow System
-                        Settings</mdui-menu-item>
+                    <mdui-menu-item ref="lightMode" value="light">
+                        Keep Light
+                        <mdui-icon slot="icon" name="wb_sunny"></mdui-icon>
+                    </mdui-menu-item>
+                    <mdui-menu-item ref="darkMode" value="dark">
+                        Keep Dark
+                        <mdui-icon slot="icon" name="nightlight"></mdui-icon>
+                    </mdui-menu-item>
+                    <mdui-menu-item ref="autoMode" value="auto">
+                        Follow System Settings
+                        <mdui-icon slot="icon" name="computer"></mdui-icon>
+                    </mdui-menu-item>
                 </mdui-menu>
             </mdui-dropdown>
         </mdui-top-app-bar>
@@ -44,8 +52,6 @@ const closeButton = ref<HTMLElement | null>(null);
 const lightMode = ref<HTMLElement | null>(null);
 const darkMode = ref<HTMLElement | null>(null);
 const autoMode = ref<HTMLElement | null>(null);
-
-console.log(store.themePreference);
 
 onMounted(() => {
     openButton.value?.addEventListener("click", () => (navigationDrawer.value as any).open = true);
