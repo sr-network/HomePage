@@ -23,8 +23,8 @@
                 <mdui-button-icon slot="trigger" icon="contrast"></mdui-button-icon>
                 <mdui-menu>
                     <mdui-menu-item ref="lightMode" value="light">Light Mode</mdui-menu-item>
-                    <mdui-menu-item @click="setTheme('dark')" value="dark">Dark Mode</mdui-menu-item>
-                    <mdui-menu-item @click="setTheme('auto')" value="auto">Follow System
+                    <mdui-menu-item ref="darkMode" value="dark">Dark Mode</mdui-menu-item>
+                    <mdui-menu-item ref="autoMode" value="auto">Follow System
                         Settings</mdui-menu-item>
                 </mdui-menu>
             </mdui-dropdown>
@@ -35,9 +35,9 @@
 <script setup lang="ts">
 import { setTheme } from 'mdui';
 import { ref, onMounted } from 'vue';
-import { useStore } from '../stores';
+import { useThemeStore } from '../stores/themeMode';
 
-const store = useStore();
+const store: any = useThemeStore();
 const navigationDrawer = ref<HTMLElement | null>(null);
 const openButton = ref<HTMLElement | null>(null);
 const closeButton = ref<HTMLElement | null>(null);
@@ -45,21 +45,24 @@ const lightMode = ref<HTMLElement | null>(null);
 const darkMode = ref<HTMLElement | null>(null);
 const autoMode = ref<HTMLElement | null>(null);
 
+console.log(store.themePreference);
+
 onMounted(() => {
     openButton.value?.addEventListener("click", () => (navigationDrawer.value as any).open = true);
     closeButton.value?.addEventListener("click", () => (navigationDrawer.value as any).open = false);
     lightMode.value?.addEventListener("click", () => {
-        setTheme('light');
-        store.setTheme('light');
+        setTheme("light");
+        store.setTheme("light");
     });
     darkMode.value?.addEventListener("click", () => {
-        setTheme('dark');
-        store.setTheme('dark');
+        setTheme("dark");
+        store.setTheme("dark");
     });
     autoMode.value?.addEventListener("click", () => {
-        setTheme('auto');
-        store.setTheme('auto');
+        setTheme("auto");
+        store.setTheme("auto");
     });
     setTheme(store.themePreference);
 });
 </script>
+../stores/themeMode

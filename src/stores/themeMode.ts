@@ -4,15 +4,14 @@ type states = {
   themePreference: "light" | "dark" | "auto";
 };
 
-export const useStore = defineStore({
-  id: "Store",
+export const useThemeStore = defineStore('theme', {
   persist: true,
   state: (): states => ({
     themePreference: "auto",
   }),
   actions: {
-    setTheme(theme: 'light' | 'dark' | 'auto') {
+    setTheme(theme: "light" | "dark" | "auto") {
       this.themePreference = theme;
-    },
-  },
-});
+    }
+  }
+})
