@@ -4,7 +4,3 @@
             <div class="text-center sm:text-right text-sm">Built with <a href="https://vitejs.dev">Vite.js</a> by SliverRiver.</div>
         </mdui-navigation-bar>
 </template>
-
-<script setup lang="ts">
-import 'mdui/components/navigation-bar.js';
-</script>

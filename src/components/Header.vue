@@ -41,15 +41,15 @@
                 <mdui-button-icon slot="trigger"><mdui-icon-contrast /></mdui-button-icon>
                 <mdui-menu>
                     <mdui-menu-item ref="lightMode" value="light">
-                        Keep Light
+                        Light
                         <mdui-icon-wb-sunny slot="icon" />
                     </mdui-menu-item>
                     <mdui-menu-item ref="darkMode" value="dark">
-                        Keep Dark
+                        Dark
                         <mdui-icon-nightlight slot="icon" />
                     </mdui-menu-item>
                     <mdui-menu-item ref="autoMode" value="auto">
-                        Follow System Settings
+                        System
                         <mdui-icon-computer slot="icon" />
                     </mdui-menu-item>
                 </mdui-menu>
@@ -59,21 +59,9 @@
 </template>
 
 <script setup lang="ts">
-import { setTheme } from 'mdui';
+import { setTheme } from 'mdui/functions/setTheme.js';
 import { ref, onMounted } from 'vue';
 import { useThemeStore } from '../stores/themeMode';
-
-import '@mdui/icons/person.js';
-import '@mdui/icons/book.js';
-import '@mdui/icons/library-books.js';
-import '@mdui/icons/contact-page.js';
-import '@mdui/icons/link.js';
-import '@mdui/icons/analytics.js';
-import '@mdui/icons/menu.js';
-import '@mdui/icons/contrast.js';
-import '@mdui/icons/wb-sunny.js';
-import '@mdui/icons/nightlight.js';
-import '@mdui/icons/computer.js';
 
 const store: any = useThemeStore();
 const navigationDrawer = ref<HTMLElement | null>(null);
@@ -101,4 +89,3 @@ onMounted(() => {
     setTheme(store.themePreference);
 });
 </script>
-../stores/themeMode

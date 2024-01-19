@@ -3,3 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  font-family: "Roboto";
+}
+
+:not(:defined) {
+  visibility: hidden;
+}

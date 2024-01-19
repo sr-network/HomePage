@@ -1,5 +1,5 @@
-import { createApp } from "vue";
-import "./style.css";
+import { ViteSSG } from 'vite-ssg/single-page'
+import "./style.scss";
 import App from "./App.vue";
 import { createPinia } from "pinia";
 import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
@@ -7,4 +7,6 @@ import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
 const pinia = createPinia();
 pinia.use(piniaPluginPersistedstate);
 
-createApp(App).use(pinia).mount('#app')
+export const createApp = ViteSSG(App, ({ app }) => {
+    app.use(pinia)
+})
