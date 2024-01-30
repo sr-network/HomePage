@@ -9,22 +9,22 @@
 
         <div class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item" href="/" alt="To Site Index">
+                <a class="navbar-item" href="/" aria-label="To Site Index">
                     Index
                 </a>
-                <a class="navbar-item" href="https://blog.gxres.net" alt="To Restent's Notebook">
+                <a class="navbar-item" href="https://blog.gxres.net" aria-label="To Restent's Notebook">
                     Blog
                 </a>
-                <a class="navbar-item" href="https://blog.gxres.net" alt="To SliverRiver's Library">
+                <a class="navbar-item" href="https://blog.gxres.net" aria-label="To SliverRiver's Library">
                     Library
                 </a>
             </div>
 
             <div class="navbar-end">
-                <a class="navbar-item" href="https://library.gxres.net/links" alt="Ou's Friends">
+                <a class="navbar-item" href="https://library.gxres.net/links" aria-label="Ou's Friends">
                     <div class="i-ic:baseline-link text-2xl"></div>
                 </a>
-                <a class="navbar-item" href="https://status.slirv.vip" alt="Ou's Site Status">
+                <a class="navbar-item" href="https://status.slirv.vip" aria-label="Ou's Site Status">
                     <div class="i-ic-baseline-analytics text-2xl" />
                 </a>
             </div>
@@ -32,19 +32,19 @@
     </nav>
     <nav class="navbar lg:hidden grid justify-items-center overflow-x-auto">
         <div class="flex flex-row">
-            <a class="navbar-item" href="/" alt="To Site Index">
+            <a class="navbar-item" href="/" aria-label="To Site Index">
                 Index
             </a>
-            <a class="navbar-item" href="https://blog.gxres.net" alt="To Restent's Notebook">
+            <a class="navbar-item" href="https://blog.gxres.net" aria-label="To Restent's Notebook">
                 Blog
             </a>
-            <a class="navbar-item" href="https://blog.gxres.net" alt="To SliverRiver's Library">
+            <a class="navbar-item" href="https://blog.gxres.net" aria-label="To SliverRiver's Library">
                 Library
             </a>
-            <a class="navbar-item" href="https://library.gxres.net/links" alt="Ou's Friends">
+            <a class="navbar-item" href="https://library.gxres.net/links" aria-label="Ou's Friends">
                 <div class="i-ic-baseline-link text-2xl"></div>
             </a>
-            <a class="navbar-item" href="https://status.slirv.vip" alt="Ou's Site Status">
+            <a class="navbar-item" href="https://status.slirv.vip" aria-label="Ou's Site Status">
                 <div class="i-ic-baseline-analytics text-2xl" />
             </a>
         </div>
