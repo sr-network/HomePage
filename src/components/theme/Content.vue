@@ -11,35 +11,26 @@
                 </div>
                 <hr>
                 <div class="content">
-                    <h3>Name variant</h3>
-                    <ul>
-                        <li>Restent Ou: gxres042, Restent</li>
-                        <li>SliverRiver: slivermoe</li>
-                    </ul>
-                    <article class="message is-warning">
-                        <div class="message-header">
-                            <p>Warning</p>
-                        </div>
-                        <div class="message-body">
-                            It's important to notice that everyone can register these variants on different platforms that I
-                            haven't registered yet. I have listed the trust platforms with an access link <a
-                                href="https://library.gxres.net/contact">here</a>.
-                        </div>
-                    </article>
-                    <h3>Work for</h3>
+                    <h3>Introduce</h3>
+                    <p>I am a senior high student who comes from Guangxi, China aged 17. I think I will always be interested
+                        in everything I like.</p>
+                    <p>On the Internet, I will active as "Restent Ou" (ID: gxres042) or "SliverRiver" (ID: slivermoe).</p>
+                    <h3>Emotion attack</h3>
+                    <p>I am not good at communicating with others, also no emotions will shown on my face. But if you are
+                        one of the people I know, I will try my best to keep friendly when communication.</p>
+                    <p>But please remember, it's hard for me to stay normal and friendly for all of my lifetime, you must
+                        pay attention to the "PUA" happening unintentionally.</p>
+                    <h3>Work</h3>
+                    <p>"Work", only for my website. So in my spare time, I often code website with Vue.js.</p>
+                    <p>I learned Python in junior high, but I seldom code project with it.</p>
+                    <p>BTW I'm also work for these organizations:</p>
                     <ul>
                         <li><a href="https://github.com/s-complex">Sliver Complex</a>, as my lab</li>
                         <li><a href="https://github.com/LittleSkinCommspt">LittleSkin Community</a></li>
                         <li><a href="https://go.14cloud.cn">14Cloud</a></li>
                     </ul>
-                    <h3>Self introduce</h3>
-                    <ul>
-                        <li>Senior high student who comes from Guangxi, China</li>
-                        <li>Learning to code website with Vue.js</li>
-                        <li>Know a little about Python</li>
-                        <li>Fan of Minecraft and rhythm games (especially Phigros and Arcaea)</li>
-                        <li>Forever like to eat delicious food</li>
-                    </ul>
+                    <h3>Find me</h3>
+                    <p>I have prepared a list can be found <a href="https://library.gxres.net/contact.html">here</a>.</p>
                 </div>
             </div>
         </div>
