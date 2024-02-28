@@ -69,7 +69,7 @@ onMounted(() => {
         </div>
       </div>
       <div class="grid justify-items-end mt-3">
-        <a class="button is-info">
+        <a class="button is-info" href="https://library.gxres.net/contact.html">
           <span>Contact me</span>
           <span class="icon"><i class="i-ic-baseline-arrow-forward-ios text-2xl" /></span>
         </a>
