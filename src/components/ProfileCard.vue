@@ -59,7 +59,7 @@ function toggleContent() {
         </div>
         <hr>
         <div class="card-content">
-            <div class="grid grid-cols-2 gap-3">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
                 <div class="space-y-3">
                     <ContentHeading>我是谁？</ContentHeading>
                     <MainContent>我就读于广西的一所高级中学。</MainContent>
@@ -125,7 +125,7 @@ function toggleContent() {
                 </div>
             </div>
             <br>
-            <div class="grid grid-cols-2 gap-3">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
                 <div class="space-y-3">
                     <ContentHeading>我的技能</ContentHeading>
                     <MainContent>尽管我没有完全掌握任何一项技能，但过往我学习了比较多的、为自己提供便利的技能知识。</MainContent>
@@ -222,7 +222,7 @@ function toggleContent() {
                 </div>
             </div>
             <br>
-            <div class="grid grid-cols-2 gap-3">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
                 <div class="space-y-3">
                     <ContentHeading>我的爱好</ContentHeading>
                     <MainContent>我的爱好特别复杂，包含了 IT、美食、音游等内容。</MainContent>
