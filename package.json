@@ -9,11 +9,13 @@
   },
   "dependencies": {
     "@fontsource/ubuntu": "^5.0.8",
+    "@unhead/vue": "^1.8.20",
     "bulma": "^0.9.4",
     "vue": "^3.3.11"
   },
   "devDependencies": {
     "@iconify-json/ic": "^1.1.17",
+    "@iconify-json/material-symbols-light": "^1.1.15",
     "@vitejs/plugin-vue": "^5.0.3",
     "sass": "^1.70.0",
     "typescript": "^5.2.2",

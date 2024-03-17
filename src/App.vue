@@ -13,8 +13,8 @@ onMounted(() => {
 
 
 <template>
-  <div class="flex justify-center items-center h-screen">
-    <div class="max-w-screen-sm container mx-auto">
+  <div class="p-4">
+    <div class="max-w-screen-lg container mx-auto">
       <div>
         <ProfileCard />
       </div>
