@@ -7,5 +7,5 @@ import { createHead } from "@unhead/vue";
 const head = createHead();
 
 export const createApp = ViteSSG(App, ({ app }) => {
-    app.use(head)
+  app.use(head);
 });

@@ -22,9 +22,6 @@ devDependencies:
   '@cloudflare/kv-asset-handler':
     specifier: ^0.3.1
     version: 0.3.1
-  '@iconify-json/ic':
-    specifier: ^1.1.17
-    version: 1.1.17
   '@iconify-json/material-symbols-light':
     specifier: ^1.1.15
     version: 1.1.15
@@ -604,12 +601,6 @@ packages:
   /@fontsource/ubuntu@5.0.8:
     resolution: {integrity: sha512-lZY64hVXrnkt/+5jRfm0uMiRv+lmrIdnATAnDj1SPqebmI2UDf3KC9p4rOkIYsBOjOsD6seJ82GIQE067DSvWw==}
     dev: false
-
-  /@iconify-json/ic@1.1.17:
-    resolution: {integrity: sha512-EvAjZzVESmN36zlyefylePUNaU2BQ3eRKVZ6KQSQ2bG01ppoZaiFZRri74VTyvp5Mlv2yn68ux1fgCoT+etGmA==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: true
 
   /@iconify-json/material-symbols-light@1.1.15:
     resolution: {integrity: sha512-r69IXNBHw1iMljJiZaJpLH9R9xLNYv1Mfmxum4O8bv9CJV/0NzUg6ud+7Hk4txyt4LXOQiymyrOZNBIRMLANAg==}

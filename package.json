@@ -15,7 +15,6 @@
   },
   "devDependencies": {
     "@cloudflare/kv-asset-handler": "^0.3.1",
-    "@iconify-json/ic": "^1.1.17",
     "@iconify-json/material-symbols-light": "^1.1.15",
     "@vitejs/plugin-vue": "^5.0.3",
     "sass": "^1.70.0",
