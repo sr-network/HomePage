@@ -1,27 +1,33 @@
 {
-  "name": "ou-intro",
+  "name": "ou-s-intro",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite-ssg build",
-    "preview": "vite preview"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@fontsource/ubuntu": "^5.0.8",
-    "@unhead/vue": "^1.8.20",
-    "bulma": "^0.9.4",
-    "vue": "^3.3.11"
+    "@fontsource/roboto": "^5.0.12",
+    "@iconify-json/ic": "^1.1.17",
+    "@iconify-json/mdi": "^1.1.64",
+    "@nuxt/image": "^1.4.0",
+    "@pinia/nuxt": "^0.5.1",
+    "bulma": "^1.0.0",
+    "nuxt": "^3.11.1",
+    "nuxt-payload-analyzer": "^0.1.4",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@cloudflare/kv-asset-handler": "^0.3.1",
-    "@iconify-json/material-symbols-light": "^1.1.15",
-    "@vitejs/plugin-vue": "^5.0.3",
-    "sass": "^1.70.0",
-    "typescript": "^5.2.2",
-    "unocss": "^0.58.4",
-    "vite": "^5.0.8",
-    "vite-ssg": "^0.23.6",
-    "vue-tsc": "^1.8.25"
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
+    "@unocss/nuxt": "^0.58.8",
+    "nuxt-schema-org": "^3.3.6",
+    "nuxt-simple-robots": "4.0.0-rc.16",
+    "sass": "^1.72.0",
+    "unocss": "^0.58.8"
   }
 }

@@ -1,0 +1,17 @@
+@charset "utf-8";
+@use "sass:color";
+@use "bulma/sass/utilities/derived-variables" with(
+  $link: #2275c9
+);
+@forward "bulma/sass/base";
+@forward "bulma/sass/components/card";
+@forward "bulma/sass/components/tabs";
+@forward "bulma/sass/elements/button";
+@forward "bulma/sass/elements/icon";
+@forward "bulma/sass/elements/content";
+@forward "bulma/sass/themes";
+
+
+body {
+  background-color: var(--bulma-background);
+}

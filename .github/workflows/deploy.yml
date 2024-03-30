@@ -1,7 +1,4 @@
 name: Site workflow
-env:
-  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
 on:
   push:
@@ -55,7 +52,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: pnpm install
       - name: Generate site
-        run: pnpm build
+        run: pnpm generate
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@2.0.0
         with:

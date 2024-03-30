@@ -1,0 +1,7 @@
+@use "./bulma" as *;
+@import "@fontsource/roboto/400.css";
+
+body {
+  font-family: "Roboto";
+  font-display: optional;
+}
