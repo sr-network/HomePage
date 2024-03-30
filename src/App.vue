@@ -47,7 +47,7 @@ useSeoMeta({
         <div class="container mx-auto p-4">
           <div class="grid justify-center items-center space-y-3">
             <div class="flex justify-center">
-              <img width="150" height="150" class="rounded-full" @click="toggleContent" :src="profileStore.imageUrl">
+              <NuxtImg preload placeholder width="150" height="150" class="rounded-full" @click="toggleContent" :src="profileStore.imageUrl" :alt="`${profileStore.name}'s avatar'`" />
             </div>
             <div class="text-center">
               <div class="text-3xl">{{ profileStore.name }}</div>
