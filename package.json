@@ -28,6 +28,6 @@
     "nuxt-schema-org": "^3.3.6",
     "nuxt-simple-robots": "4.0.0-rc.16",
     "sass": "^1.72.0",
-    "unocss": "^0.58.8"
+    "unocss": "^0.59.4"
   }
 }

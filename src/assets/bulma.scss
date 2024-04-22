@@ -4,14 +4,18 @@
   $link: #2275c9
 );
 @forward "bulma/sass/base";
-@forward "bulma/sass/components/card";
-@forward "bulma/sass/components/tabs";
-@forward "bulma/sass/elements/button";
-@forward "bulma/sass/elements/icon";
+@forward "bulma/sass/elements/box";
 @forward "bulma/sass/elements/content";
+@forward "bulma/sass/elements/tag";
+@forward "bulma/sass/elements/button";
+@forward "bulma/sass/components/tabs";
 @forward "bulma/sass/themes";
 
 
 body {
-  background-color: var(--bulma-background);
+  background: linear-gradient(
+    180deg,
+    var(--bulma-scheme-main-bis),
+    var(--bulma-link)
+  );
 }
