@@ -1,4 +1,4 @@
-import { presetUno, presetIcons } from "unocss";
+import { presetUno, presetIcons, presetWebFonts } from "unocss";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -23,6 +23,12 @@ export default defineNuxtConfig({
           display: "inline-block",
         },
       }),
+      presetWebFonts({
+        provider: "bunny", // 默认提供者
+        fonts: {
+          sans: "Ubuntu",
+        },
+      }),
     ],
   },
   schemaOrg: {
@@ -33,4 +39,4 @@ export default defineNuxtConfig({
       logo: "https://library.gxres.net/images/icons/favicon.webp",
     },
   },
-})
+});
