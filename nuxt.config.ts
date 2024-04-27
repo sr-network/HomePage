@@ -1,4 +1,4 @@
-import { presetUno, presetIcons, presetWebFonts } from "unocss";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -13,24 +13,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
   ],
-  unocss: {
-    safelist: ["i-ic-baseline-rss-feed"],
-    presets: [
-      presetUno(),
-      presetIcons({
-        prefix: "i-",
-        extraProperties: {
-          display: "inline-block",
-        },
-      }),
-      presetWebFonts({
-        provider: "bunny", // 默认提供者
-        fonts: {
-          sans: "Ubuntu",
-        },
-      }),
-    ],
-  },
+
   schemaOrg: {
     identity: {
       type: "Person",

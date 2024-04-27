@@ -24,6 +24,7 @@
     "@cloudflare/kv-asset-handler": "^0.3.1",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
     "@unocss/nuxt": "^0.58.8",
+    "@unocss/transformer-compile-class": "^0.59.4",
     "nuxt-schema-org": "^3.3.6",
     "nuxt-simple-robots": "4.0.0-rc.16",
     "sass": "^1.72.0",
