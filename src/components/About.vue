@@ -10,8 +10,7 @@ const profileStore = useProfileStore();
                 <p>I am {{ profileStore.name }}, nice to meet you~</p>
                 <h2>Who am I?</h2>
                 <p>I am a senior high student who comes from Guangxi, China.</p>
-                <p>I am also a noob on the Internet. At the moment, I'm mostly working for my things, and sometimes I am
-                    active in LittleSkin Community and 14Cloud.</p>
+                <p>I am also a noob on the Internet. At the moment, I'm mostly working for my things.</p>
                 <h2>My skills</h2>
                 <p>By maintaining my own websites, I have acquired more knowledge of Vue. Likewise, I've learned a few
                     other things for life, such as Linux and OpenWRT.</p>
