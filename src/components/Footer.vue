@@ -1,9 +1,16 @@
-<script setup lang="ts">
-const profileStore = useProfileStore();
+<template>
+  <div class=":uno: h-40 bg-gray-900 text-white">
+    <div class=":uno: h-full grid grid-cols-1 place-items-center">
+      <div class=":uno:">Copyright © 2019 - {{ new Date().getFullYear() }} Restent Ou × SliverRiver. Built with
+        <NuxtLink href="https://nuxt.com" target="_blank">Nuxt</NuxtLink> and <NuxtLink
+          href="https://www.patternfly.org" target="_blank">PatternFly</NuxtLink>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script lang="ts" setup>
+
 </script>
 
-<template>
-    <div class="p-6">
-        <p class="text-center text-sm">Copyright © 2019 - {{ new Date().getFullYear() }} {{ profileStore.name }}. All rights reserved.</p>
-    </div>
-</template>
+<style></style>

@@ -1,13 +1,16 @@
+<template>
+  <Header />
+  <Hello />
+  <Content />
+  <Next />
+  <Footer />
+</template>
+
 <script setup lang="ts">
-const profileStore = useProfileStore();
-
-const toggleContent = () => {
-  profileStore.toggleContent();
-};
-
 useHead({
+  title: "Restent Ou (@gxres042)",
   meta: [
-    { name: "description", content: `Introduction of ${profileStore.name}` },
+    { name: "description", content: "Homepage of Restent Ou a.k.a. SliverRiver" },
   ],
   htmlAttrs: {
     lang: "zh-CN",
@@ -29,19 +32,10 @@ useHead({
 });
 
 useSeoMeta({
-  title: `${profileStore.name} (@${profileStore.id})`,
-  ogTitle: `${profileStore.name} (@${profileStore.id})`,
-  description: `Introduction of ${profileStore.name}`,
-  ogDescription: `Introduction of ${profileStore.name}`,
+  title: "Restent Ou (@gxres042)",
+  ogTitle: "Restent Ou (@gxres042)",
+  description: "Homepage of Restent Ou a.k.a. SliverRiver",
+  ogDescription: "Homepage of Restent Ou a.k.a. SliverRiver",
   ogImage: `https://library.gxres.net/images/icons/favicon.webp`,
 });
 </script>
-
-<template>
-  <Head>
-    <Title>{{ profileStore.name }} (@{{ profileStore.id }})</Title>
-  </Head>
-  <Hello />
-  <About />
-  <Footer />
-</template>

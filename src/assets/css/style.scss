@@ -1,0 +1,14 @@
+@import "@patternfly/patternfly/sass-utilities/all";
+@import "@patternfly/patternfly/base/variables";
+@import "@patternfly/patternfly/base/base";
+@import "@patternfly/patternfly/base/themes";
+@import "@patternfly/patternfly/components/Masthead/masthead";
+@import "@patternfly/patternfly/components/Toolbar/toolbar";
+@import "@patternfly/patternfly/components/ToggleGroup/toggle-group";
+@import "@patternfly/patternfly/components/Content/content";
+@import "@patternfly/patternfly/components/Button/button";
+
+body {
+  font-family: "Noto Sans", "Noto Sans SC", sans-serif;
+  font-display: optional;
+}

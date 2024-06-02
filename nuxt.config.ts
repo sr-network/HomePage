@@ -1,25 +1,30 @@
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   srcDir: "./src",
-  css: ["~/assets/global.scss"],
+  css: ["~/assets/css/style.scss"],
   modules: [
     "@unocss/nuxt",
-    "nuxt-simple-robots",
-    "nuxt-schema-org",
     "@nuxt/image",
     "nuxt-payload-analyzer",
     "@pinia/nuxt",
-    "@pinia-plugin-persistedstate/nuxt",
+    "@nuxtjs/color-mode",
   ],
-
-  schemaOrg: {
-    identity: {
-      type: "Person",
-      name: "Ou's Intro",
-      url: "https://www.gxres.net",
-      logo: "https://library.gxres.net/images/icons/favicon.webp",
+  colorMode: {
+    preference: "system", // default value of $colorMode.preference
+    fallback: "light", // fallback value if not system preference found
+    hid: "nuxt-color-mode-script",
+    globalName: "__NUXT_COLOR_MODE__",
+    componentName: "ColorScheme",
+    classPrefix: "pf-v5-theme-",
+    classSuffix: "",
+    storageKey: "nuxt-color-mode",
+  },
+  postcss: {
+    plugins: {
+      cssnano: {
+        preset: "advanced",
+      },
     },
   },
 });

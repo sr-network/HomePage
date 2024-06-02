@@ -1,5 +1,5 @@
 {
-  "name": "ou-s-intro",
+  "name": "ou-homepage",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,24 +10,23 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@iconify-json/ic": "^1.1.17",
-    "@iconify-json/mdi": "^1.1.64",
-    "@nuxt/image": "^1.4.0",
+    "@nuxt/image": "^1.7.0",
+    "@patternfly/patternfly": "^5.3.1",
     "@pinia/nuxt": "^0.5.1",
-    "bulma": "^1.0.0",
-    "nuxt": "^3.11.1",
+    "nuxt": "^3.11.2",
     "nuxt-payload-analyzer": "^0.1.4",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "@cloudflare/kv-asset-handler": "^0.3.1",
-    "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
-    "@unocss/nuxt": "^0.58.8",
-    "@unocss/transformer-compile-class": "^0.59.4",
-    "nuxt-schema-org": "^3.3.6",
-    "nuxt-simple-robots": "4.0.0-rc.16",
-    "sass": "^1.72.0",
-    "unocss": "^0.59.4"
+    "@cloudflare/kv-asset-handler": "^0.3.2",
+    "@iconify-json/ic": "^1.1.17",
+    "@iconify-json/logos": "^1.1.42",
+    "@nuxtjs/color-mode": "^3.4.1",
+    "@unocss/nuxt": "^0.60.3",
+    "@unocss/transformer-compile-class": "^0.60.3",
+    "cssnano-preset-advanced": "^7.0.1",
+    "sass": "^1.77.4",
+    "unocss": "^0.60.3"
   }
 }
