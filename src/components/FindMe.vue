@@ -7,21 +7,21 @@
           <div>
             <NuxtLink class="pf-v5-c-button pf-m-link" type="button" href="https://github.com/gxres042">
               <span class="pf-v5-c-button__icon pf-m-start">
-                <span class="i-logos-github-octocat" />
+                <span class="i-fa6-brands-github" />
               </span>
               GitHub
             </NuxtLink>
-            <NuxtLink class="pf-v5-c-button pf-m-link" type="button" href="https://t.me/trashbin_res">
+            <NuxtLink class="pf-v5-c-button pf-m-link" type="button" href="https://t.me/gxres042">
               <span class="pf-v5-c-button__icon pf-m-start">
-                <span class="i-logos-telegram" />
+                <span class="i-fa6-brands-telegram" />
               </span>
-              Telegram Channel
+              Telegram
             </NuxtLink>
             <NuxtLink class="pf-v5-c-button pf-m-link" type="button" href="https://library.gxres.net/social/for-contact">
               <span class="pf-v5-c-button__icon pf-m-start">
-                <span class="i-ic-baseline-more-horiz" />
+                <span class="i-fe-elipsis-h" />
               </span>
-              More
+              More ways
             </NuxtLink>
           </div>
         </div>

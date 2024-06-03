@@ -33,12 +33,12 @@ importers:
       '@cloudflare/kv-asset-handler':
         specifier: ^0.3.2
         version: 0.3.2
-      '@iconify-json/ic':
-        specifier: ^1.1.17
-        version: 1.1.17
-      '@iconify-json/logos':
-        specifier: ^1.1.42
-        version: 1.1.42
+      '@iconify-json/fa6-brands':
+        specifier: ^1.1.19
+        version: 1.1.19
+      '@iconify-json/fe':
+        specifier: ^1.1.10
+        version: 1.1.10
       '@nuxtjs/color-mode':
         specifier: ^3.4.1
         version: 3.4.1(rollup@4.18.0)
@@ -409,11 +409,11 @@ packages:
   '@floating-ui/utils@0.2.2':
     resolution: {integrity: sha512-J4yDIIthosAsRZ5CPYP/jQvUAQtlZTTD/4suA08/FEnlxqW3sKS9iAhgsa9VYLZ6vDHn/ixJgIqRQPotoBjxIw==}
 
-  '@iconify-json/ic@1.1.17':
-    resolution: {integrity: sha512-EvAjZzVESmN36zlyefylePUNaU2BQ3eRKVZ6KQSQ2bG01ppoZaiFZRri74VTyvp5Mlv2yn68ux1fgCoT+etGmA==}
+  '@iconify-json/fa6-brands@1.1.19':
+    resolution: {integrity: sha512-3Dl0D1gtFwIj7/GT2xJbkM9D/LjuozsgfLrqRWP6B5xuajtsyEvR1wD0Z06y3iaNtASpgWPWyYbml+AHQ3Hw0g==}
 
-  '@iconify-json/logos@1.1.42':
-    resolution: {integrity: sha512-/f+frtPm3m3Z30oy8Pk+QqRDkbmAiIaWGPl5CmsCXm15MVfvw9a/V/gD7WzdyuSGAZcFuQaqbHXj92y/n+2ifg==}
+  '@iconify-json/fe@1.1.10':
+    resolution: {integrity: sha512-ePFSmtnDTk+PtsmGsPtmLXPQNV/V3iC/Kr7E/yv0PANiwVwqY5JJcaAVyWlVIvB7qaLEhncVhvXp7TwcM9bPpw==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -4516,11 +4516,11 @@ snapshots:
 
   '@floating-ui/utils@0.2.2': {}
 
-  '@iconify-json/ic@1.1.17':
+  '@iconify-json/fa6-brands@1.1.19':
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/logos@1.1.42':
+  '@iconify-json/fe@1.1.10':
     dependencies:
       '@iconify/types': 2.0.0
 

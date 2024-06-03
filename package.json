@@ -20,8 +20,8 @@
   },
   "devDependencies": {
     "@cloudflare/kv-asset-handler": "^0.3.2",
-    "@iconify-json/ic": "^1.1.17",
-    "@iconify-json/logos": "^1.1.42",
+    "@iconify-json/fa6-brands": "^1.1.19",
+    "@iconify-json/fe": "^1.1.10",
     "@nuxtjs/color-mode": "^3.4.1",
     "@unocss/nuxt": "^0.60.3",
     "@unocss/transformer-compile-class": "^0.60.3",

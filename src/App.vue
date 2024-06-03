@@ -2,7 +2,7 @@
   <Header />
   <Hello />
   <Content />
-  <Next />
+  <FindMe />
   <Footer />
 </template>
 

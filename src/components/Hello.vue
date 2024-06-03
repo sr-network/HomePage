@@ -24,7 +24,7 @@
           </div>
           <div class=":uno: order-first md:order-last">
             <NuxtImg @click="toggleContent" loading="lazy" decoding="async" class=":uno: w-36 h-36 rounded-full"
-              width="144" height="144" :src="profile.avatar" />
+              width="144" height="144" :src="profile.avatar" alt="My avatar" />
           </div>
         </div>
         <div class=":uno: space-x-6">
