@@ -1,5 +1,5 @@
 {
-  "name": "ou-homepage",
+  "name": "nuxt-app",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@nuxt/image": "^1.7.0",
-    "@patternfly/patternfly": "^5.3.1",
+    "@picocss/pico": "^2.0.6",
     "@pinia/nuxt": "^0.5.1",
     "nuxt": "^3.11.2",
     "nuxt-payload-analyzer": "^0.1.4",
@@ -20,13 +20,10 @@
   },
   "devDependencies": {
     "@cloudflare/kv-asset-handler": "^0.3.2",
-    "@iconify-json/fa6-brands": "^1.1.19",
-    "@iconify-json/fe": "^1.1.10",
-    "@nuxtjs/color-mode": "^3.4.1",
-    "@unocss/nuxt": "^0.60.3",
-    "@unocss/transformer-compile-class": "^0.60.3",
-    "cssnano-preset-advanced": "^7.0.1",
+    "@unocss/nuxt": "^0.60.4",
+    "@unocss/transformer-compile-class": "^0.60.4",
+    "cssnano-preset-advanced": "^7.0.2",
     "sass": "^1.77.4",
-    "unocss": "^0.60.3"
+    "unocss": "^0.60.4"
   }
 }

@@ -1,8 +1,10 @@
 <template>
-  <Header />
-  <Hello />
-  <Content />
-  <FindMe />
+  <Navbar />
+  <main class=":uno: max-w-4xl mx-auto p-6">
+    <Hello />
+    <About />
+    <FindMe />
+  </main>
   <Footer />
 </template>
 

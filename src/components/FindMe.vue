@@ -1,32 +1,12 @@
 <template>
-  <div class=":uno: p-6 w-full max-w-2xl mx-auto">
-    <div class=":uno: h-80 w-full">
-      <div class=":uno: h-full grid grid-cols-1 place-items-center">
-        <div class=":uno: flex flex-col justify-center">
-          <h2 class="text-lg">Find me at...</h2>
-          <div>
-            <NuxtLink class="pf-v5-c-button pf-m-link" type="button" href="https://github.com/gxres042">
-              <span class="pf-v5-c-button__icon pf-m-start">
-                <span class="i-fa6-brands-github" />
-              </span>
-              GitHub
-            </NuxtLink>
-            <NuxtLink class="pf-v5-c-button pf-m-link" type="button" href="https://t.me/gxres042">
-              <span class="pf-v5-c-button__icon pf-m-start">
-                <span class="i-fa6-brands-telegram" />
-              </span>
-              Telegram
-            </NuxtLink>
-            <NuxtLink class="pf-v5-c-button pf-m-link" type="button" href="https://library.gxres.net/social/for-contact">
-              <span class="pf-v5-c-button__icon pf-m-start">
-                <span class="i-fe-elipsis-h" />
-              </span>
-              More ways
-            </NuxtLink>
-          </div>
-        </div>
+  <div class=":uno: h-80 grid grid-cols-1 place-items-center text-center">
+    <section>
+      <h2>Find me at...</h2>
+      <div class=":uno: space-x-6">
+        <NuxtLink target="_blank" href="https://github.com/gxres042">GitHub</NuxtLink>
+        <NuxtLink target="_blank" href="https://library.gxres.net/social/for-activities">Or more ways?</NuxtLink>
       </div>
-    </div>
+    </section>
   </div>
 </template>
 

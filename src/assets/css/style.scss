@@ -1,18 +1,25 @@
-@import "@patternfly/patternfly/sass-utilities/all";
-@import "@patternfly/patternfly/base/variables";
-@import "@patternfly/patternfly/base/base";
-@import "@patternfly/patternfly/base/themes";
-@import "@patternfly/patternfly/components/Masthead/masthead";
-@import "@patternfly/patternfly/components/Toolbar/toolbar";
-@import "@patternfly/patternfly/components/ToggleGroup/toggle-group";
-@import "@patternfly/patternfly/components/Content/content";
-@import "@patternfly/patternfly/components/Button/button";
-
-body {
-  font-family: "Noto Sans", "Noto Sans SC", sans-serif;
-  font-display: optional;
-}
-
-.pf-v5-c-toggle-group {
-  --pf-v5-c-toggle-group__button--m-selected--BackgroundColor: rgb(0, 102, 204);
-}
+@use "@picocss/pico/scss/pico" with (
+  $theme-color: "blue",
+  $enable-semantic-container: true,
+  $modules: (
+    "layout/container": false,
+    "layout/grid": false,
+    "layout/overflow-auto": false,
+    "content/table": false,
+    "forms/basics": false,
+    "forms/checkbox-radio-switch": false,
+    "forms/input-color": false,
+    "forms/input-date": false,
+    "forms/input-file": false,
+    "forms/input-range": false,
+    "forms/input-search": false,
+    "components/accordion": false,
+    "components/card": false,
+    "components/dropdown": false,
+    "components/group": false,
+    "components/loading": false,
+    "components/modal": false,
+    "components/progress": false,
+    "components/tooltip": false,
+  )
+);
