@@ -4,7 +4,7 @@
       <div class=":uno: h-full flex space-x-4">
         <div class=":uno: flex items-center">
           <NuxtImg class=":uno: w-7 h-7 rounded-full" width="28" height="28"
-            src="https://library.gxres.net/images/icons/favicon.webp" />
+            src="https://library.gxres.net/images/icons/favicon.webp" alt="Site favicon" />
         </div>
         <nav class=":uno: flex items-center space-x-3">
           <NuxtLink class=":uno: link" title="Visit my homepage - You're here now!" to="/">Home</NuxtLink>
