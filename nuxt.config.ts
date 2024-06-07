@@ -2,12 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   srcDir: "./src",
-  css: ["~/assets/css/style.scss"],
   modules: [
     "@unocss/nuxt",
     "@nuxt/image",
     "nuxt-payload-analyzer",
     "@pinia/nuxt",
+    "@nuxtjs/color-mode",
   ],
   postcss: {
     plugins: {
@@ -15,5 +15,12 @@ export default defineNuxtConfig({
         preset: "advanced",
       },
     },
+  },
+  colorMode: {
+    preference: "system",
+    fallback: "light",
+    classPrefix: "",
+    classSuffix: "",
+    storageKey: "nuxt-color-mode",
   },
 });

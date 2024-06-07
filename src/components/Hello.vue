@@ -1,12 +1,14 @@
 <template>
-  <div class=":uno: w-full h-120 grid grid-cols-1 place-items-center">
+  <div class=":uno: w-full h-150 grid grid-cols-1 place-items-center">
     <div class=":uno: grid grid-cols-1 md:grid-cols-4 gap-6">
       <div class=":uno: order-first md:order-last">
-        <NuxtImg @click="toggleContent" class=":uno: w-36 h-36 rounded-full" width="144"
+        <div class=":uno: h-full flex items-center">
+          <NuxtImg @click="toggleContent" class=":uno: w-36 h-36 rounded-full" width="144"
           height="144" :src="profile.avatar" alt="My avatar" />
+        </div>
       </div>
       <div class=":uno: col-span-3">
-        <hgroup>
+        <hgroup class=":uno: text m-0">
           <h1>
             <span>👋 Hey, </span>
             <br />
@@ -16,7 +18,7 @@
             </span>
             <br />
             <transition name="fade">
-              <span v-show="profile.isTextVisible" class=":uno: text-xl">(a.k.a.
+              <span v-show="profile.isTextVisible" class=":uno: text-base">(a.k.a.
                 SliverRiver)</span>
             </transition>
           </h1>

@@ -1,4 +1,4 @@
-import { defineConfig, presetUno, presetIcons, presetWebFonts } from "unocss";
+import { defineConfig, presetUno, presetIcons, presetWebFonts, presetTypography } from "unocss";
 import transformerCompileClass from "@unocss/transformer-compile-class";
 
 export default defineConfig({
@@ -17,6 +17,13 @@ export default defineConfig({
         sans: "Noto Sans",
       },
     }),
+    presetTypography(),
   ],
+  shortcuts: {
+    "text": "text-black dark:text-white",
+    "link": "text-sky-600 no-underline",
+    "component-background": "light:bg-white dark:bg-slate-950",
+    "mode-panel-button": "text text-lg bg-inherit hover:bg-slate-200 dark:hover:bg-slate:950 rounded border-none",
+  },
   transformers: [transformerCompileClass()],
 });

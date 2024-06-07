@@ -1,11 +1,13 @@
 <template>
-  <Navbar />
-  <main class=":uno: max-w-4xl mx-auto p-6">
-    <Hello />
-    <About />
-    <FindMe />
-  </main>
-  <Footer />
+  <div class=":uno: light:bg-white dark:bg-slate-900">
+    <Header />
+    <main class=":uno: max-w-4xl mx-auto p-6">
+      <Hello />
+      <About />
+      <FindMe />
+    </main>
+    <Footer />
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -16,6 +18,9 @@ useHead({
   ],
   htmlAttrs: {
     lang: "zh-CN",
+  },
+  bodyAttrs: {
+    class: [":uno:", "m-0"]
   },
   link: [
     {
@@ -41,3 +46,9 @@ useSeoMeta({
   ogImage: `https://library.gxres.net/images/icons/favicon.webp`,
 });
 </script>
+<style>
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-display: optional;
+}
+</style>

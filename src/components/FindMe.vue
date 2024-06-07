@@ -1,10 +1,11 @@
 <template>
-  <div class=":uno: h-80 grid grid-cols-1 place-items-center text-center">
+  <div class=":uno: h-80 grid grid-cols-1 place-items-center text-center text">
     <section>
       <h2>Find me at...</h2>
-      <div class=":uno: space-x-6">
-        <NuxtLink target="_blank" href="https://github.com/gxres042">GitHub</NuxtLink>
-        <NuxtLink target="_blank" href="https://library.gxres.net/social/for-activities">Or more ways?</NuxtLink>
+      <div class=":uno: flex flex-row space-x-6">
+        <NuxtLink class=":uno: link" href="https://github.com">GitHub</NuxtLink>
+        <NuxtLink class=":uno: link" href="https://bsky.app/profile/gxres.net">Bluesky</NuxtLink>
+        <NuxtLink class=":uno: link" href="https://github.com">Or more ways?</NuxtLink>
       </div>
     </section>
   </div>
