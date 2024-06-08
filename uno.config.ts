@@ -22,8 +22,8 @@ export default defineConfig({
   shortcuts: {
     "text": "text-black dark:text-white",
     "link": "text-sky-700 no-underline",
-    "component-background": "light:bg-white dark:bg-slate-950",
-    "mode-panel-button": "text text-lg bg-inherit hover:bg-slate-200 dark:hover:bg-slate:950 rounded border-none",
+    "navbar-item": "py-4 px-2 bg-inherit hover:bg-slate-100 dark:hover:bg-slate:950 border-none flex items-center",
+    "mode-panel-button": "text bg-inherit hover:bg-slate-200 dark:hover:bg-slate:950 rounded border-none p-2",
   },
   transformers: [transformerCompileClass()],
 });

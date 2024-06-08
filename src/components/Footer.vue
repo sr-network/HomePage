@@ -1,5 +1,5 @@
 <template>
-  <footer class=":uno: text-sm text text-center p-6">
+  <footer class=":uno: text-sm text text-center p-6 shadow">
     Copyright © 2019 - {{ new Date().getFullYear() }} Restent Ou × SliverRiver. Powered by <NuxtLink class=":uno: link"
       target="_blank" href="https://nuxt.com">
       Nuxt</NuxtLink>.
