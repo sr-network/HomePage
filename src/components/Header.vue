@@ -1,20 +1,20 @@
 <template>
-  <header class=":uno: px-4 shadow">
+  <header class=":uno: px-4 h-13 shadow">
     <div class=":uno: flex justify-between gap-4">
       <div class=":uno: h-full flex flex-row">
         <NuxtLink class=":uno: navbar-item" to="/">
           <NuxtImg class=":uno: w-7 h-7 rounded-full" width="28" height="28"
             src="https://library.gxres.net/images/icons/favicon.webp" alt="Site favicon" />
         </NuxtLink>
-        <NuxtLink class=":uno: navbar-item link" title="Visit my homepage - You're here now!" to="/">Home</NuxtLink>
-        <NuxtLink class=":uno: navbar-item link" title="Visit my blog" href="https://blog.gxres.net">Blog</NuxtLink>
-        <NuxtLink class=":uno: navbar-item link" title="Visit my library" href="https://library.gxres.net">Library
+        <NuxtLink class=":uno: navbar-item" title="Visit my homepage - You're here now!" to="/">Home</NuxtLink>
+        <NuxtLink class=":uno: navbar-item" title="Visit my blog" href="https://blog.gxres.net">Blog</NuxtLink>
+        <NuxtLink class=":uno: navbar-item" title="Visit my library" href="https://library.gxres.net">Library
         </NuxtLink>
       </div>
-      <div class="h-full">
+      <div class=":uno: h-full flex flex-row">
         <button @click="open = !open" title="Change the site theme" aria-label="Change the site theme"
           class=":uno: navbar-item">
-          <span class=":uno: text-xl text i-ic-baseline-contrast" />
+            <div class=":uno: text-xl py-1 i-ic-baseline-contrast" />
         </button>
       </div>
     </div>
