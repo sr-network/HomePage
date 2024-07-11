@@ -1,4 +1,5 @@
 <template>
+  <NuxtRouteAnnouncer />
   <div class=":uno: light:bg-white dark:bg-slate-900">
     <Header />
     <main class=":uno: max-w-4xl mx-auto p-6">
