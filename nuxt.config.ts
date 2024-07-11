@@ -1,7 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  experimental: {
+    componentIslands: true,
+  },
+
   devtools: { enabled: true },
   srcDir: "./src",
+
   modules: [
     "@unocss/nuxt",
     "@nuxt/image",
@@ -9,6 +14,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@nuxtjs/color-mode",
   ],
+
   postcss: {
     plugins: {
       cssnano: {
@@ -16,6 +22,7 @@ export default defineNuxtConfig({
       },
     },
   },
+
   colorMode: {
     preference: "system",
     fallback: "light",
@@ -23,4 +30,6 @@ export default defineNuxtConfig({
     classSuffix: "",
     storageKey: "nuxt-color-mode",
   },
+
+  compatibilityDate: "2024-07-11",
 });

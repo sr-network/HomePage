@@ -12,18 +12,18 @@
   "dependencies": {
     "@nuxt/image": "^1.7.0",
     "@pinia/nuxt": "^0.5.1",
-    "nuxt": "^3.11.2",
+    "nuxt": "^3.12.3",
     "nuxt-payload-analyzer": "^0.1.4",
-    "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
-    "@cloudflare/kv-asset-handler": "^0.3.2",
+    "@cloudflare/kv-asset-handler": "^0.3.4",
     "@iconify-json/ic": "^1.1.17",
-    "@nuxtjs/color-mode": "^3.4.1",
-    "@unocss/nuxt": "^0.60.4",
-    "@unocss/transformer-compile-class": "^0.60.4",
-    "cssnano-preset-advanced": "^7.0.2",
-    "unocss": "^0.60.4"
+    "@nuxtjs/color-mode": "^3.4.2",
+    "@unocss/nuxt": "^0.61.3",
+    "@unocss/transformer-compile-class": "^0.61.3",
+    "cssnano-preset-advanced": "^7.0.4",
+    "unocss": "^0.61.3"
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <header class=":uno: px-4 h-13 shadow">
+  <header class=":uno: px-4 h-13 shadow-md">
     <div class=":uno: flex justify-between gap-4">
       <div class=":uno: h-full flex flex-row">
         <NuxtLink class=":uno: navbar-item" to="/">

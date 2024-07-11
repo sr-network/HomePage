@@ -3,9 +3,9 @@
     <section>
       <h2>Find me at...</h2>
       <div class=":uno: flex flex-row space-x-6">
-        <NuxtLink class=":uno: link" href="https://github.com">GitHub</NuxtLink>
-        <NuxtLink class=":uno: link" href="https://bsky.app/profile/gxres.net">Bluesky</NuxtLink>
-        <NuxtLink class=":uno: link" href="https://github.com">Or more ways?</NuxtLink>
+        <a target="_blank" class=":uno: link" href="https://github.com">GitHub</a>
+        <a target="_blank" class=":uno: link" href="https://bsky.app/profile/gxres.net">Bluesky</a>
+        <a target="_blank" class=":uno: link" href="https://github.com">Or more ways?</a>
       </div>
     </section>
   </div>

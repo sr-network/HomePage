@@ -3,8 +3,8 @@
     <section class=":uno: prose">
       <h2>Who am I?</h2>
       <p>A senior high student who comes from Guangxi, China.</p>
-      <p>Member of <NuxtLink target="_blank" href="https://www.travellings.cn">Travellings</NuxtLink> and <NuxtLink
-          target="_blank" href="https://speed.14cloud.cn">14Cloud (external)</NuxtLink>. </p>
+      <p>Member of <a target="_blank" href="https://www.travellings.cn">Travellings</a> and <a
+          target="_blank" href="https://speed.14cloud.cn">14Cloud (external)</a>. </p>
       <p>And also a newbee on the Internet.</p>
     </section>
     <section class=":uno: prose">
