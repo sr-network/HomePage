@@ -38,24 +38,23 @@ jobs:
         os: [ubuntu-latest]
         node: [20]
     steps:
-      - uses: actions/checkout@v4
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Use bun
+        uses: oven-sh/setup-bun@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
       - name: Install dependencies
-        run: pnpm install
-      - name: Build site
-        run: pnpm generate
+        run: bun install
+      - name: Generate site
+        run: bun run generate
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
       - name: Send build success message
         uses: colutius/Telegram-Msg@main
         with:
