@@ -19,7 +19,6 @@
     "vue-router": "^4.4.0"
   },
   "devDependencies": {
-    "@cloudflare/kv-asset-handler": "^0.3.4",
     "@iconify-json/ic": "^1.1.17",
     "@nuxtjs/color-mode": "^3.4.2",
     "@unocss/nuxt": "^0.61.3",
