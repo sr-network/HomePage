@@ -12,9 +12,9 @@
   "dependencies": {
     "@nuxt/image": "^1.7.0",
     "@pinia/nuxt": "^0.5.1",
-    "nuxt": "3.12.4",
+    "nuxt": "^3.12.4",
     "nuxt-payload-analyzer": "^0.1.4",
-    "nuxt-umami": "^2.6.2",
+    "nuxt-umami": "^2.6.4",
     "vue": "^3.4.33",
     "vue-router": "^4.4.0"
   },

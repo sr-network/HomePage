@@ -42,6 +42,7 @@ export default defineNuxtConfig({
       autoTrack: true,
       version: 2,
       useDirective: true,
+      debug: true,
     },
   },
 });
