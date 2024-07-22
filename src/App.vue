@@ -1,14 +1,10 @@
 <template>
   <NuxtRouteAnnouncer />
-  <div class=":uno: light:bg-white dark:bg-slate-900">
-    <Header />
-    <main class=":uno: max-w-4xl mx-auto p-6">
-      <Hello />
-      <About />
-      <FindMe />
-    </main>
-    <Footer />
-  </div>
+  <Header />
+  <main>
+    <Main />
+  </main>
+  <Footer />
 </template>
 
 <script setup lang="ts">
@@ -18,10 +14,7 @@ useHead({
     { name: "description", content: "Homepage of Restent Ou a.k.a. SliverRiver" },
   ],
   htmlAttrs: {
-    lang: "zh-CN",
-  },
-  bodyAttrs: {
-    class: [":uno:", "m-0"]
+    lang: "en",
   },
   link: [
     {
@@ -29,8 +22,8 @@ useHead({
       href: "https://www.gxres.net",
     },
     {
-      rel: "preconnect",
-      href: "https://library.gxres.net",
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap",
     },
     {
       rel: "icon",
@@ -44,12 +37,13 @@ useSeoMeta({
   ogTitle: "Restent Ou (@gxres042)",
   description: "Homepage of Restent Ou a.k.a. SliverRiver",
   ogDescription: "Homepage of Restent Ou a.k.a. SliverRiver",
-  ogImage: `https://library.gxres.net/images/icons/favicon.webp`,
+  ogImage: `https://library.gxres.net/images/icons/big-favicon.webp`,
 });
 </script>
+
 <style>
 body {
   font-family: "Noto Sans", sans-serif;
-  font-display: optional;
+  --apply: "m-0 text-lg dark:text-white bg-neutral-50 dark:bg-neutral-900";
 }
 </style>

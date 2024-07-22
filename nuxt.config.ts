@@ -1,40 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: '2024-04-03',
+  devtools: { enabled: true },
   experimental: {
     componentIslands: true,
   },
-
-  devtools: { enabled: true },
-  srcDir: "./src",
-
-  modules: [
-    "@unocss/nuxt",
-    "@nuxt/image",
-    "nuxt-payload-analyzer",
-    "@pinia/nuxt",
-    "@nuxtjs/color-mode",
-  ],
-
-  extends: ["nuxt-umami"],
-
-  postcss: {
-    plugins: {
-      cssnano: {
-        preset: "advanced",
-      },
-    },
-  },
-
-  colorMode: {
-    preference: "system",
-    fallback: "light",
-    classPrefix: "",
-    classSuffix: "",
-    storageKey: "nuxt-color-mode",
-  },
-
-  compatibilityDate: "2024-07-11",
-
   appConfig: {
     umami: {
       host: "https://umami.slirv.vip/",
@@ -45,4 +15,28 @@ export default defineNuxtConfig({
       debug: true,
     },
   },
-});
+  srcDir: "./src",
+  modules: [
+    "@unocss/nuxt",
+    "@nuxt/image",
+    "nuxt-payload-analyzer",
+    "@nuxtjs/color-mode",
+    "@nuxt/eslint",
+    "@nuxtjs/robots"
+  ],
+  extends: ["nuxt-umami"],
+  postcss: {
+    plugins: {
+      cssnano: {
+        preset: "advanced",
+      }
+    }
+  },
+  colorMode: {
+    preference: "system",
+    fallback: "light",
+    classPrefix: "",
+    classSuffix: "",
+    storageKey: "nuxt-color-mode",
+  },
+})

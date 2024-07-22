@@ -1,6 +1,0 @@
-name = "homepage"
-main = "./index.js"
-workers_dev = true
-compatibility_date = "2023-12-31"
-[site]
-bucket = ".output/public"
