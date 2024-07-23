@@ -23,7 +23,7 @@ useHead({
     },
     {
       rel: "stylesheet",
-      href: "https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap",
+      href: "https://api.slirv.vip/fonts/css2?family=Noto+Sans:ital@0;1&display=swap",
     },
     {
       rel: "icon",
