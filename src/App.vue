@@ -22,6 +22,10 @@ useHead({
       href: "https://www.gxres.net",
     },
     {
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap",
+    },
+    {
       rel: "icon",
       href: "https://library.gxres.net/images/icons/favicon.webp",
     },
