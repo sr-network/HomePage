@@ -12,7 +12,7 @@
       />
     </div>
     <section class="typo">
-      <h1>Restent Ou</h1>
+      <h1 class=":uno: text-center">Restent Ou</h1>
       <div class=":uno: flex flex-row justify-center gap-4">
         <a href="https://blog.gxres.net">Blog</a>
         <a href="https://library.gxres.net">Library</a>
@@ -59,7 +59,7 @@
 .typo {
 
   h1 {
-    --apply: font-semibold leading-snug text-4xl my-4 text-center
+    --apply: font-semibold leading-snug text-4xl my-4
   }
 
   h2 {
