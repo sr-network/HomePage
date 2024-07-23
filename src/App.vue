@@ -46,4 +46,8 @@ body {
   font-family: "Noto Sans", sans-serif;
   --apply: "m-0 text-lg dark:text-white bg-neutral-50 dark:bg-neutral-900";
 }
+
+a {
+  --apply: "text-sky-700 font-medium no-underline"
+}
 </style>

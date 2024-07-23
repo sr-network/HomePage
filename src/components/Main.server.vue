@@ -1,5 +1,5 @@
 <template>
-  <div class=":uno: mx-auto max-w-2xl p-4 -mt-22">
+  <div class=":uno: mx-auto max-w-2xl px-4 pb-4 -mt-20">
     <div class=":uno: flex justify-center">
       <NuxtImg
         preload
@@ -67,7 +67,7 @@
   }
 
   a {
-    --apply: text-blue-600 hover:underline font-medium
+    --apply: hover:underline
   }
 
   p,
