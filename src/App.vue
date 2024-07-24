@@ -26,6 +26,16 @@ useHead({
       href: "https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap",
     },
     {
+      rel: "preload",
+      href: "https://library.gxres.net/images/bg.webp",
+      as: "image",
+    },
+    {
+      rel: "preload",
+      href: "https://library.gxres.net/images/icons/avatar.webp",
+      as: "image",
+    },
+    {
       rel: "icon",
       href: "https://library.gxres.net/images/icons/favicon.webp",
     },
