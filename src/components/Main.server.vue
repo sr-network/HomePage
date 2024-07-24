@@ -4,7 +4,7 @@
       <NuxtImg
         preload
         decoding="async"
-        class=":uno: h-32 w-32 rounded-full"
+        class=":uno: h-32 w-32 rounded-full shadow-lg"
         width="128"
         height="128"
         src="https://library.gxres.net/images/icons/avatar.webp"
@@ -17,17 +17,14 @@
         <a href="https://blog.gxres.net">Blog</a>
         <a href="https://library.gxres.net">Library</a>
         <a href="https://slirv.vip">Lab</a>
-        <a href="https://library.gxres.net/social/for-contact">Contact</a>
       </div>
       <p>
         Hello, I'm Restent Ou, a senior high student who comes from Guangxi,
         China.
       </p>
       <h2>a.k.a.</h2>
-      <p>
-        In some scenarios, I may be active as SliverRiver. And in game, I
-        usually campaign under the name undefinedR2.
-      </p>
+      <p>In some scenarios, I may be active as SliverRiver.</p>
+      <p>In game, I usually campaign under the name undefinedR2.</p>
       <h2>Work</h2>
       <p>
         I mainly work for myself, creating meaningless things in my lab. You may
@@ -51,32 +48,42 @@
         <li>Xiaomi Ecosystem (?)</li>
         <li>...</li>
       </ul>
+      <h2>Find me</h2>
+      <p>
+        You can find me at
+        <a href="https://github.com/gxres042" target="_blank">GitHub</a> or
+        <a href="https://m.flyemoji.moe/@slivermoe" target="_blank">Mastodon</a
+        >.
+      </p>
+      <p>
+        Or, you can get more ways to find me by following the list
+        <a href="https://library.gxres.net/social/for-contact">here</a>.
+      </p>
     </section>
   </div>
 </template>
 
 <style>
 .typo {
-
   h1 {
-    --apply: font-semibold leading-snug text-4xl my-4
+    --apply: "font-semibold leading-snug text-4xl my-4";
   }
 
   h2 {
-    --apply: font-semibold leading-snug text-3xl my-8
+    --apply: "font-semibold leading-snug text-3xl my-8";
   }
 
   a {
-    --apply: hover:underline
+    --apply: "hover:underline";
   }
 
   p,
   ul {
-    --apply: my-4 leading-relaxed
+    --apply: "my-4 leading-relaxed";
   }
 
   ul {
-    --apply: pl-5 list-disc
+    --apply: "pl-5 list-disc";
   }
 }
 </style>
