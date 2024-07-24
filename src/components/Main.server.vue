@@ -56,8 +56,9 @@
         >.
       </p>
       <p>
-        Or, you can get more ways to find me by following the list
-        <a href="https://library.gxres.net/social/for-contact">here</a>.
+        Or, you can get more ways to find me by following
+        <a href="https://library.gxres.net/social/for-contact">the list here</a
+        >.
       </p>
     </section>
   </div>
