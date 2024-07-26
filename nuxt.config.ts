@@ -14,7 +14,6 @@ export default defineNuxtConfig({
     "@nuxt/eslint",
     "@nuxtjs/robots"
   ],
-  extends: ["nuxt-umami"],
   postcss: {
     plugins: {
       cssnano: {
