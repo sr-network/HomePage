@@ -20,6 +20,9 @@ importers:
       nuxt-payload-analyzer:
         specifier: ^0.1.4
         version: 0.1.4(magicast@0.3.4)(rollup@4.19.0)
+      nuxt-umami:
+        specifier: ^2.6.4
+        version: 2.6.4
       vue:
         specifier: latest
         version: 3.4.33(typescript@5.5.4)
@@ -3095,6 +3098,9 @@ packages:
 
   nuxt-site-config@2.2.15:
     resolution: {integrity: sha512-V/gsWAeSWQi7FGoy6vicf6DXaaNJ/akail54dMWnrkcBre4PpBSwP7arZqmZZzj1mc0v7LoYqISr9qeXhcT1NA==}
+
+  nuxt-umami@2.6.4:
+    resolution: {integrity: sha512-R+Fv+chpa3CcLLkAERzeCFmvZcFv3irUhtAH9x4Ukm12hjHGKeUSArZK07Ld/bzkq+2WJp6QqmXdr/KK/f6g1w==}
 
   nuxt@3.12.4:
     resolution: {integrity: sha512-/ddvyc2kgYYIN2UEjP8QIz48O/W3L0lZm7wChIDbOCj0vF/yLLeZHBaTb3aNvS9Hwp269nfjrm8j/mVxQK4RhA==}
@@ -8012,6 +8018,8 @@ snapshots:
       - supports-color
       - vite
       - vue
+
+  nuxt-umami@2.6.4: {}
 
   nuxt@3.12.4(@parcel/watcher@2.4.1)(@types/node@20.14.12)(eslint@9.7.0)(ioredis@5.4.1)(magicast@0.3.4)(optionator@0.9.4)(rollup@4.19.0)(terser@5.31.3)(typescript@5.5.4)(vite@5.3.4(@types/node@20.14.12)(terser@5.31.3)):
     dependencies:
