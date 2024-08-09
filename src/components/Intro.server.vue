@@ -11,13 +11,16 @@
           <span>&#8226;</span>
           <a href="https://slirv.vip" target="_blank">Lab</a>
         </span>
-    </section>
-      <div class=":uno: order-first flex items-center justify-center lg:order-last lg:justify-end">
+      </section>
+      <div
+        class=":uno: order-first flex items-center justify-center lg:order-last lg:justify-end"
+      >
         <img
           class=":uno: h-48 w-48 rounded-full shadow-lg"
           width="192"
           height="192"
           src="https://library.gxres.net/images/icons/avatar.webp"
+          alt="Restent's avatar"
         >
       </div>
     </div>
