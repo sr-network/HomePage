@@ -1,9 +1,10 @@
 <template>
   <NuxtRouteAnnouncer />
-  <Header />
-  <main>
-    <Main />
-  </main>
+  <div class=":uno: mx-auto max-w-4xl p-4">
+    <Intro />
+    <Profile />
+    <Findme />
+  </div>
   <Footer />
 </template>
 
@@ -11,7 +12,10 @@
 useHead({
   title: "Restent Ou (@gxres042)",
   meta: [
-    { name: "description", content: "Homepage of Restent Ou a.k.a. SliverRiver" },
+    {
+      name: "description",
+      content: "Homepage of Restent Ou a.k.a. SliverRiver",
+    },
   ],
   htmlAttrs: {
     lang: "en",
@@ -54,10 +58,10 @@ useSeoMeta({
 <style>
 body {
   font-family: "Noto Sans", sans-serif;
-  --apply: "m-0 text-lg dark:text-white bg-neutral-50 dark:bg-neutral-900";
+  --apply: "m-0 text-lg dark:text-white bg-gradient-to-b from-white to-sky-200 dark:from-black dark:to-sky-900";
 }
 
 a {
-  --apply: "text-sky-700 font-medium no-underline"
+  --apply: "text-sky-700 dark:text-sky-500 font-medium no-underline hover:underline";
 }
 </style>
