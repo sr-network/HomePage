@@ -14,15 +14,15 @@
     "nuxt": "^3.12.4",
     "nuxt-payload-analyzer": "^0.1.4",
     "nuxt-umami": "^2.6.4",
-    "vue": "latest"
+    "vue": "^3.4.37"
   },
   "devDependencies": {
-    "@nuxt/eslint": "^0.3.13",
+    "@nuxt/eslint": "^0.5.0",
     "@nuxtjs/color-mode": "^3.4.2",
-    "@unocss/eslint-config": "^0.61.5",
-    "@unocss/nuxt": "^0.61.5",
+    "@unocss/eslint-config": "^0.61.9",
+    "@unocss/nuxt": "^0.61.9",
     "cssnano-preset-advanced": "^7.0.4",
-    "eslint": "^9.7.0",
-    "unocss": "^0.61.5"
+    "eslint": "^9.8.0",
+    "unocss": "^0.61.9"
   }
 }
