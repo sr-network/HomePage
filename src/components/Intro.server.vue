@@ -1,7 +1,7 @@
 <template>
   <div class=":uno: min-h-screen w-full flex items-center justify-center">
     <div class=":uno: grid grid-cols-1 gap-4 lg:grid-cols-2">
-      <div class=":uno: w-full text-center md:text-left">
+      <section class=":uno: w-full text-center lg:text-left">
         <h1 class=":uno: animate-split animate-bounce text-4xl">Hi there 👋</h1>
         <p>This is Restent Ou, aka SliverRiver or undefinedR2.</p>
         <span class=":uno: space-x-2">
@@ -11,8 +11,8 @@
           <span>&#8226;</span>
           <a href="https://slirv.vip" target="_blank">Lab</a>
         </span>
-      </div>
-      <div class=":uno: flex items-center justify-center lg:justify-end">
+    </section>
+      <div class=":uno: order-first flex items-center justify-center lg:order-last lg:justify-end">
         <img
           class=":uno: h-48 w-48 rounded-full shadow-lg"
           width="192"
