@@ -3,7 +3,6 @@
   <div class=":uno: mx-auto max-w-4xl p-4">
     <Intro />
     <Profile />
-    <Findme />
   </div>
   <Footer />
 </template>
@@ -58,7 +57,7 @@ useSeoMeta({
 <style>
 body {
   font-family: "Noto Sans", sans-serif;
-  --apply: "m-0 text-lg dark:text-white bg-gradient-to-b from-white to-sky-200 dark:from-black dark:to-sky-900";
+  --apply: "m-0 text-lg dark:text-white bg-gradient-to-b from-white to-sky-200 dark:from-neutral-950 dark:to-sky-900";
 }
 
 a {
