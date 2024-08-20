@@ -9,10 +9,10 @@
 					<li>Senior high school student</li>
 					<li>
 						<s>Most useless</s> maintainer of
-						<a href="https://www.travellings.cn">Travellings</a>
+						<a href="https://www.travellings.cn" target="_blank">Travellings</a>
 					</li>
 					<li>
-						External member of <a class="https://speed.14cloud.cn">14Cloud</a>
+						External member of <a href="https://speed.14cloud.cn" target="_blank">14Cloud</a>
 					</li>
 					<li>Contributor, seems to have contributed to a lot of places</li>
 				</ul>

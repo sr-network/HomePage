@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     "nuxt-payload-analyzer",
     "@nuxtjs/color-mode",
     "@nuxt/eslint",
-    "@nuxtjs/robots",
   ],
   extends: ["nuxt-umami"],
   postcss: {

@@ -13,7 +13,6 @@
 	},
 	"dependencies": {
 		"@nuxt/image": "^1.7.0",
-		"@nuxtjs/robots": "^4.0.2",
 		"nuxt": "^3.12.4",
 		"nuxt-payload-analyzer": "^0.1.4",
 		"nuxt-umami": "^2.6.4",
