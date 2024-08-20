@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class=":uno: space-y-4">
     <div class=":uno: grid grid-cols-1 lg:grid-cols-3">
       <div class=":uno: flex items-center">
         <h2>I am</h2>
