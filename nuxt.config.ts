@@ -37,6 +37,6 @@ export default defineNuxtConfig({
 		id: "fbe8ac0c-641d-4d0a-a03e-1e98844c9c52",
 		autoTrack: true,
 		ignoreLocalhost: true,
-		domains: ["www.gxres.net"]
+		domains: ["www.gxres.net", "gxres.net"]
 	}
 })
