@@ -8,6 +8,10 @@
 </template>
 
 <script setup lang="ts">
+onMounted(() => {
+	umTrackView();
+})
+
 useHead({
 	title: "Restent Ou (@gxres042)",
 	meta: [
