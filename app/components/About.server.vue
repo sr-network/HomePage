@@ -2,7 +2,7 @@
 	<section class=":uno: p-4 typo">
 		<h2>Who am I?</h2>
 		<p>
-			I operate on the Internet as "Restent Ou" or "SliverRiver", and I have a
+			I am active on the web as "Restent Ou" or "SliverRiver", and I have a
 			game ID "undefinedR2". You can mostly call me "Restent", "Res", "Sli" or
 			"R2".
 		</p>
@@ -11,7 +11,7 @@
 			for the National Higher Education Entrance Examination next year.
 		</p>
 		<p>
-			At the same time, I'm also a member of the Traveler maintenance team and
+			At the same time, I'm also a member of the <a href="https://www.travellings.cn" target="_blank">Travellings</a> maintenance team and
 			am currently responsible for most of the team's new site review tasks.
 		</p>
 		<h2>My skills</h2>
