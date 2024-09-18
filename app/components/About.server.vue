@@ -1,18 +1,19 @@
 <template>
-	<section class=":uno: p-4 typo">
+	<section class=":uno: typo p-4">
 		<h2>Who am I?</h2>
 		<p>
-			I am active on the web as "Restent Ou" or "SliverRiver", and I have a
-			game ID "undefinedR2". You can mostly call me "Restent", "Res", "Sli" or
-			"R2".
+			I am active on the web as "Restent Ou" or "SliverRiver", and I have a game
+			ID "undefinedR2". You can mostly call me "Restent", "Res", "Sli" or "R2".
 		</p>
 		<p>
 			I'm now studying at a senior high school in Guangxi, and I'm now preparing
 			for the National Higher Education Entrance Examination next year.
 		</p>
 		<p>
-			At the same time, I'm also a member of the <a href="https://www.travellings.cn" target="_blank">Travellings</a> maintenance team and
-			am currently responsible for most of the team's new site review tasks.
+			At the same time, I'm also a member of the
+			<a href="https://www.travellings.cn" target="_blank">Travellings</a>
+			maintenance team and am currently responsible for most of the team's new
+			site review tasks.
 		</p>
 		<h2>My skills</h2>
 		<p>
@@ -34,7 +35,7 @@
 			I'm a fan of rhythm games and Minecraft. If I had to describe how much I
 			love them, then most of my free time is devoted to them.
 		</p>
-        <p>I am also interested in IT, electronics and public transportation.</p>
+		<p>I am also interested in IT, electronics and public transportation.</p>
 	</section>
 </template>
 
