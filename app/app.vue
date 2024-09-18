@@ -9,15 +9,15 @@
 
 <script setup lang="ts">
 onMounted(() => {
-	umTrackView();
+	umTrackView()
 })
 
 useHead({
 	title: "Restent Ou (@gxres042)",
 	meta: [
-    {
-      charset: "utf-8"
-    },
+		{
+			charset: "utf-8"
+		},
 		{
 			name: "description",
 			content: "Homepage of Restent Ou a.k.a. SliverRiver."
@@ -31,6 +31,11 @@ useHead({
 		lang: "en"
 	},
 	link: [
+		{
+			rel: "preconnect",
+			href: "https://library.gxres.net",
+			crossorigin: ""
+		},
 		{
 			rel: "canonical",
 			href: "https://www.gxres.net"
