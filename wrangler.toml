@@ -1,0 +1,6 @@
+name = "homepage"
+compatibility_date = "2023-05-18"
+assets = { directory = "./.output/public" }
+
+[observability]
+enabled = true
