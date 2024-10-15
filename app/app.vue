@@ -30,7 +30,7 @@ useHead({
    name="baidu-site-verification",
    content="codeva-yept7qZoUr"
   }
-	]
+	],
 	htmlAttrs: {
 		lang: "en"
 	},
