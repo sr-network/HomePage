@@ -27,8 +27,8 @@ useHead({
 			content: "Homepage of Restent Ou a.k.a. SliverRiver"
 		},
   {
-   name="baidu-site-verification",
-   content="codeva-yept7qZoUr"
+   name: "baidu-site-verification",
+   content: "codeva-yept7qZoUr"
   }
 	],
 	htmlAttrs: {
