@@ -25,8 +25,12 @@ useHead({
 		{
 			name: "twitter:description",
 			content: "Homepage of Restent Ou a.k.a. SliverRiver"
-		}
-	],
+		},
+  {
+   name="baidu-site-verification",
+   content="codeva-yept7qZoUr"
+  }
+	]
 	htmlAttrs: {
 		lang: "en"
 	},
