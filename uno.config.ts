@@ -1,25 +1,11 @@
-import {
-	defineConfig,
-	presetUno,
-	presetIcons,
-	transformerCompileClass,
-	transformerDirectives
-} from "unocss"
+import { defineConfig, presetUno, transformerCompileClass, transformerDirectives } from 'unocss';
 
 export default defineConfig({
-	presets: [
-		presetUno(),
-		presetIcons({
-			prefix: "i-",
-			extraProperties: {
-				display: "inline-block"
-			}
-		})
-	],
+	presets: [presetUno()],
 	transformers: [
 		transformerCompileClass(),
 		transformerDirectives({
-			applyVariable: "--apply"
+			applyVariable: '--apply'
 		})
 	]
-})
+});
