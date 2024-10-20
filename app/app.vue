@@ -3,10 +3,12 @@
 		<NuxtRouteAnnouncer />
 		<div class=":uno: grid grid-cols-1 lg:grid-cols-4 lg:gap-3">
 			<Sidebar />
-			<main class=":uno: prose p-3 lg:col-span-3">
+			<main class=":uno: p-6 lg:col-span-3">
 				<div class=":uno: mx-auto max-w-3xl">
 					<SwitchLanguage />
-					<NuxtPage />
+					<div class=":uno: prose">
+						<NuxtPage />
+					</div>
 					<footer>
 						<p class=":uno: text-center text-sm">
 							Copyright © 2019 - {{ new Date().getFullYear() }} Restent Ou. All rights reserved.
@@ -104,9 +106,6 @@ body {
 	--apply: 'dark:bg-gray-900 overflow-y-scroll';
 }
 .prose {
-	h1 {
-		--apply: 'text-4xl font-medium my-6';
-	}
 	h2 {
 		--apply: 'text-xl my-6';
 	}
@@ -118,15 +117,6 @@ body {
 	}
 	p {
 		--apply: 'my-6';
-	}
-	ol {
-		--apply: 'my-6 ml-6 list-decimal';
-	}
-	ul {
-		--apply: 'my-6 ml-6 list-disc';
-		li {
-			--apply: 'my-6';
-		}
 	}
 	a {
 		--apply: 'text-blue-500 hover:underline';

@@ -9,10 +9,10 @@
 			</svg>
 		</span>
 		<span>
-			<NuxtLink :class="{ underline: $route.path == '/en' }" to="/en">English</NuxtLink>
+			<NuxtLink :class="{ 'text-blue-500': $route.path == '/en' }" to="/en">English</NuxtLink>
 		</span>
 		<span>
-			<NuxtLink :class="{ underline: $route.path == '/zh' }" to="/zh">中文</NuxtLink>
+			<NuxtLink :class="{ 'text-blue-500': $route.path == '/zh' }" to="/zh">中文</NuxtLink>
 		</span>
 	</nav>
 </template>

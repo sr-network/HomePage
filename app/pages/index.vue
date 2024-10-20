@@ -12,8 +12,9 @@
 
 <script setup lang="ts">
 const { $userLanguage } = useNuxtApp();
+const zhCode = ['zh-CN', 'zh-TW', 'zh-HK'];
 onMounted(() => {
-	if ($userLanguage == 'zh-CN') {
+	if (zhCode.includes($userLanguage)) {
 		navigateTo('/zh');
 	} else {
 		navigateTo('/en');

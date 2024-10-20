@@ -6,9 +6,7 @@ export default defineNuxtConfig({
 		compatibilityVersion: 4
 	},
 	experimental: {
-		componentIslands: {
-			selectiveClient: true
-		}
+		componentIslands: true
 	},
 	css: ['@unocss/reset/tailwind-compat.css'],
 	modules: [

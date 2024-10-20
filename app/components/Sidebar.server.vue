@@ -2,7 +2,7 @@
 	<aside
 		class=":uno: from-indigo-950 via-sky-950 to-cyan-950 bg-gradient-to-r shadow-md lg:sticky lg:top-0 lg:h-svh"
 	>
-		<div class=":uno: h-full flex flex-col items-center justify-center gap-3 p-3 text-white">
+		<div class=":uno: h-full flex flex-col items-center justify-center gap-3 p-6 text-white">
 			<NuxtImg
 				class=":uno: rounded-full shadow-md"
 				width="128"
