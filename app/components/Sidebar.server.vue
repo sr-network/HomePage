@@ -8,6 +8,7 @@
 				width="128"
 				height="128"
 				src="https://library.gxres.net/images/icons/avatar.webp"
+				alt="Restent's avatar"
 			/>
 			<h1 class=":uno: text-2xl">Restent Ou</h1>
 			<div>静寂に問う 答えを求めて</div>
