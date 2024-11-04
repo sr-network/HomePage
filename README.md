@@ -1,3 +1,3 @@
-# Restent's Notebook
+# Ou's homepage
 
-Powered by Nuxt 3.
+Origin source of my homepage. Powered by Nuxt 3.
