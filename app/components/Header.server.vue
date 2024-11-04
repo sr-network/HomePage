@@ -13,7 +13,7 @@
 			</hgroup>
 		</div>
 		<div class="flex items-center">
-			<ul class="space-y-3">
+			<ul class="space-y-3 text-sm">
 				<li class="flex items-center gap-2">
 					<IconLocation />
 					<span>Guangxi, China</span>

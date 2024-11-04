@@ -69,7 +69,7 @@ useSeoMeta({
 .dark {
 	color-scheme: dark;
 }
-body {
+html {
 	font-family:
 		-apple-system,
 		BlinkMacSystemFont,
