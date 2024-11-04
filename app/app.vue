@@ -1,22 +1,10 @@
 <template>
-	<div>
+	<div class="mx-auto max-w-2xl p-6 space-y-6">
 		<NuxtRouteAnnouncer />
-		<div class=":uno: grid grid-cols-1 lg:grid-cols-4 lg:gap-3">
-			<Sidebar />
-			<main class=":uno: p-6 lg:col-span-3">
-				<div class=":uno: mx-auto max-w-3xl">
-					<SwitchLanguage />
-					<div class=":uno: prose">
-						<NuxtPage />
-					</div>
-					<footer>
-						<p class=":uno: text-center text-sm">
-							Copyright © 2019 - {{ new Date().getFullYear() }} Restent Ou. All rights reserved.
-						</p>
-					</footer>
-				</div>
-			</main>
-		</div>
+		<Header />
+		<br />
+		<Content />
+		<Footer />
 	</div>
 </template>
 
@@ -103,23 +91,8 @@ body {
 		Apple Color Emoji,
 		Segoe UI Emoji,
 		Segoe UI Symbol;
-	--apply: 'dark:bg-gray-900 overflow-y-scroll';
 }
-.prose {
-	h2 {
-		--apply: 'text-xl my-6';
-	}
-	h3 {
-		--apply: 'text-lg my-6';
-	}
-	h4 {
-		--apply: 'my-6';
-	}
-	p {
-		--apply: 'my-6';
-	}
-	a {
-		--apply: 'text-blue-500 hover:underline';
-	}
+a {
+	--apply: 'text-link hover:underline';
 }
 </style>
