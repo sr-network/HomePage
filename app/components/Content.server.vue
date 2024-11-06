@@ -16,7 +16,7 @@
 		<div class="grid grid-cols-1 gap-3 md:grid-cols-2">
 			<section class="space-y-3">
 				<h3 class="text-xl font-medium">Front-end</h3>
-				<ul class="list-disc list-inside">
+				<ul class="list-disc list-inside space-y-1">
 					<li>HTML</li>
 					<li>JavaScript & TypeScript (Node.js)</li>
 					<li><NuxtLink href="https://react.dev" target="_blank" external>React</NuxtLink></li>
@@ -26,7 +26,7 @@
 			</section>
 			<section class="space-y-3">
 				<h3 class="text-xl font-medium">Back-end</h3>
-				<ul class="list-disc list-inside">
+				<ul class="list-disc list-inside space-y-1">
 					<li>JavaScript & TypeScript (Node.js)</li>
 					<li><NuxtLink href="https://nitro.build" target="_blank" external>Nitro</NuxtLink></li>
 					<li><NuxtLink href="https://python.org/" target="_blank" external>Python</NuxtLink></li>

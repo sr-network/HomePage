@@ -66,33 +66,5 @@ useSeoMeta({
 </script>
 
 <style>
-.dark {
-	color-scheme: dark;
-}
-html {
-	font-family:
-		-apple-system,
-		BlinkMacSystemFont,
-		Segoe UI,
-		system-ui,
-		Roboto,
-		PingFang SC,
-		Hiragino Sans GB,
-		Source Han Sans SC,
-		Noto Sans CJK SC,
-		Noto Sans SC,
-		WenQuanYi Micro Hei,
-		WenQuanYi Zen Hei,
-		Helvetica Neue,
-		Microsoft YaHei,
-		Helvetica,
-		Arial,
-		sans-serif,
-		Apple Color Emoji,
-		Segoe UI Emoji,
-		Segoe UI Symbol;
-}
-a {
-	--apply: 'text-link hover:underline';
-}
+
 </style>

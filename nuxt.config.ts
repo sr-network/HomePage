@@ -8,7 +8,7 @@ export default defineNuxtConfig({
 	experimental: {
 		componentIslands: true
 	},
-	css: ['@unocss/reset/tailwind-compat.css'],
+	css: ['~/assets/css/reset.css'],
 	modules: [
 		'@nuxt/image',
 		'nuxt-payload-analyzer',
