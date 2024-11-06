@@ -2,10 +2,13 @@
 	<header class="flex flex-col justify-between gap-6 md:flex-row">
 		<div class="space-y-3">
 			<NuxtImg
+				loading="lazy"
+				decoding="async"
 				class="rounded-full shadow"
 				width="96"
 				height="96"
 				src="https://library.gxres.net/images/icons/avatar.webp"
+				alt="Restent's avatar"
 			/>
 			<hgroup>
 				<h1 class="text-2xl font-medium">Restent Ou</h1>
