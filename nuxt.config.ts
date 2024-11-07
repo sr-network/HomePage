@@ -15,7 +15,6 @@ export default defineNuxtConfig({
 		'@nuxt/eslint',
 		'@nuxtjs/color-mode',
 		'@unocss/nuxt',
-		'@nuxtjs/critters',
 		'nuxt-umami',
 		'@nuxtjs/robots'
 	],

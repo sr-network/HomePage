@@ -23,7 +23,6 @@
 	"devDependencies": {
 		"@nuxt/eslint": "^0.6.1",
 		"@nuxtjs/color-mode": "^3.5.2",
-		"@nuxtjs/critters": "^0.7.2",
 		"@nuxtjs/robots": "^4.1.11",
 		"@unocss/eslint-config": "^0.64.0",
 		"@unocss/nuxt": "^0.64.0",
