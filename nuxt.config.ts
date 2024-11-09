@@ -20,8 +20,8 @@ export default defineNuxtConfig({
 	],
 	app: {
 		head: {
-			charset: "utf-8",
-			viewport: "width=device-width, initial-scale=1",
+			charset: 'utf-8',
+			viewport: 'width=device-width, initial-scale=1',
 			title: 'Restent Ou (@gxres042)',
 			meta: [
 				{
@@ -72,10 +72,11 @@ export default defineNuxtConfig({
 		storageKey: 'nuxt-color-mode'
 	},
 	umami: {
-		host: 'https://umami.slirv.vip/',
-		id: 'fbe8ac0c-641d-4d0a-a03e-1e98844c9c52',
+		host: 'https://analytics.hit.moe/',
+		id: '849b04c8-22d6-49a5-99e8-e22b07e436c0',
 		autoTrack: true,
 		ignoreLocalhost: true,
-		domains: ['www.gxres.net']
+		domains: ['www.gxres.net'],
+		customEndpoint: 'script/health_check.js'
 	}
 });
